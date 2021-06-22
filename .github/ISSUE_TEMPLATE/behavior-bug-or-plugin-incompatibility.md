@@ -26,7 +26,7 @@ Go to ``SERVER_FOLDER/imanity/rancha.yml`` **Copy and paste** ``spigotJarVersion
 *LATEST* is not a version.
 
 **Please agree to the following.  (fill x in the [ ])**
-- [ ] I am running the latest version of Paper available from /#client-info channel in our discord.
+- [ ] I am running the latest version of ImanitySpigot3 available from #client-info channel in our discord.
 - [ ] I have searched for and ensured there isn't already an open issue regarding this.
 - [ ] I have compared the issue inbetween TacoSpigot 1.8.8 and ImanitySpigot3 And only ImanitySpigot3 occured this issue.
 
