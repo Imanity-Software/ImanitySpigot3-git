@@ -8,5 +8,6 @@ All notable changes to this project will be documented in this file.
 - Added Instant Respawn Option
 - Fixed ProtocolLib Patching
 - Fixed FastAsyncWorldEdit Compatibility
+- Fixed ImanityCommand weird behaviour when entering unknown sub command
 - Don't patch ProtocolLib if it's ProtocolLib 4.6.1-SNAPSHOT or above
 - Updated JavaAssist to 3.28.0-GA
