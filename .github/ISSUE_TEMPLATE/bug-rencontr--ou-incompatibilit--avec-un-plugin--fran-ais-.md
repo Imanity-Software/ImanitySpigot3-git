@@ -4,7 +4,7 @@ about: Signaler les problèmes avec la compatibilité des plugins ou autre probl
   observé.
 title: "[BUG]"
 labels: bug
-assignees: ''
+assignees: Whizyyy
 
 ---
 
