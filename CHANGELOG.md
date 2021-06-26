@@ -7,27 +7,28 @@ All notable changes to this project will be documented in this file.
 ## [2021.06.2 BUILD 1] - 2021-June-26
 
 ### API Changes
-- Added getKnockback method to KnockbackService
-- Added PlayerSelectKnockbackEvent
-- Renamed getDefaultKnockback() to getRandomKnockback(World)
+- Added getKnockback method to KnockbackService.
+- Added PlayerSelectKnockbackEvent.
+- Renamed getDefaultKnockback() to getRandomKnockback(World).
 
 ### Docs Changes
 - Javadocs for Knockback class
-- Javadocs for KnockbackBehaviour class
-- Javadocs for KnockbackService class
+- Javadocs for KnockbackBehaviour class.
+- Javadocs for KnockbackService class.
 
 ### Knockback System
-- Added knockbackPerWorld option in config.yml and knockback option in world configuration
-- Added hit delay to Simple command editor
+- Added knockbackPerWorld option in config.yml and knockback option in world configuration.
+- Added hit delay to Simple command editor.
 - Knockback Behaviours can now be enabled or disabled.
-- Hit delay is now overwriting based, Now if a hit delay behaviour is enabled, bukkit hit delay will be overrided
-- Renamed simple behaviour to velocities behaviour
-- Renamed default knockback to vanilla knockback
-- Improved Description for Knockback Modifier
-- Profile registered with name "vanilla" or "reload" will not be allowed
-- If a knockback profile were unregistered, Player's using the porilfe will automatically pick a knockback from default lists
-- Displaying Behaviour Identity in knockback profile editor
+- Hit delay is now overwriting based, Now if a hit delay behaviour is enabled, bukkit hit delay will be overrided.
+- Renamed simple behaviour to velocities behaviour.
+- Renamed default knockback to vanilla knockback.
+- Improved Description for Knockback Modifier.
+- Profile registered with name "vanilla" or "reload" will not be allowed.
+- If a knockback profile were unregistered, Player's using the porilfe will automatically pick a knockback from default lists.
+- Displaying Behaviour Identity in knockback profile editor.
 - Removed velocityPacket behaviour (We believe there is no reason for this to be customizable, so we decide to made it enabled by default without customization ability.)
+- Removed no valid knockback warning (Planning to make a command for checking player's current knockback.)
 
 ### Code Quality
 - knockback instance for players are now not allowed to be null
