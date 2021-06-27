@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.06.2 BUILD 2] - 2021-June-27
+- Fixed Compile Error
+
 ## [2021.06.2 BUILD 1] - 2021-June-26
 
 ### API Changes
