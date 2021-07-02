@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.06.2 BUILD 3] - 2021-July-2
+- Improved lag spike detection message
+- Fixed Chunk status not being recognized correctly
+- Fixed build configuration
+- Fixed plugin command
+- Fixed UnsupportedOperationException on set default knockback profiles
+
 ## [2021.06.2 BUILD 2] - 2021-June-27
 - Fixed Compile Error
 
