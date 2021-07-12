@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.1 BUILD 1] - 2021-July-12
+- Added documentation page for Knockback System https://docs.imanity.dev/books/imanityspigot-3/page/knockback
+- Added Command "/curkb <player>" to view player's current knockback
+- Added Command "/kb togglePerWorld" to enable Knockback Per World in game
+- Added Command "/kb <profile> addWorld <world name>" to set available profile in worlds for Knockback Per World Feature
+- Added Command "/kb <profile> removeWorld <world name>" to remove available profile in worlds for Knockback Per World Feature
+- Added Ability to modify knockback per world options in Command Editor
+- Added Command and editor button to enable and disable hit delay in Simple Command Editor
+- Added limitation of knockback profile names (attempts to create knockback with name "vanilla", "reload", "listprofiles", "listdefaults", "listbehaviours", "listmodifiers", "toggleperworld", "switchtoadvanced", and "switchtosimple" is not allowed)
+- Mentioning documentation page in Knockback Command Editor (modifierPath explaination, Help Page etc)
+- Changed Command to switch command mode from "/kb simple" and "/kb advanced" to "/kb switchToSimple" and "/kb switchToAdvanced"
+
 ## [2021.06.2 BUILD 3] - 2021-July-2
 - Improved lag spike detection message
 - Fixed Chunk status not being recognized correctly
