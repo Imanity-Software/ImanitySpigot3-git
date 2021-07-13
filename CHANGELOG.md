@@ -1,14 +1,19 @@
 # Changelog
 
+### Contributors:
+- [LeeGod](https://github.com/LeeGodSRC)
+- [Whizyyy](https://github.com/Whizyyy)
+
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
 ## [2021.07.1 BUILD 2] - 2021-July-13
-- Added "switchToSimple" tab completion to Advanced Command Editor
-- Allow deletion for Advanced Format Profile in Simple Command Editor
-- Storing World directly in the Knockback Profile instead of in world config
-- Fixed Command Type Choice being useless
+- Added "switchToSimple" tab completion to Advanced Command Editor - [LeeGod](https://github.com/LeeGodSRC)
+- Allow deletion for Advanced Format Profile in Simple Command Editor - [LeeGod](https://github.com/LeeGodSRC)
+- Storing World directly in the Knockback Profile instead of in world config - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed Command Type Choice being useless - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed /plugins color code - [Whizyyy](https://github.com/Whizyyy)
 
 ## [2021.07.1 BUILD 1] - 2021-July-12
 - Added documentation page for Knockback System https://docs.imanity.dev/books/imanityspigot-3/page/knockback
