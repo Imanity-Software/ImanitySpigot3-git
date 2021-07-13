@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.1 BUILD 2] - 2021-July-13
+- Added "switchToSimple" tab completion to Advanced Command Editor
+- Allow deletion for Advanced Format Profile in Simple Command Editor
+- Storing World directly in the Knockback Profile instead of in world config
+- Fixed Command Type Choice being useless
+
 ## [2021.07.1 BUILD 1] - 2021-July-12
 - Added documentation page for Knockback System https://docs.imanity.dev/books/imanityspigot-3/page/knockback
 - Added Command "/curkb <player>" to view player's current knockback
