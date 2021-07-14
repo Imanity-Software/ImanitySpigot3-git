@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.1 BUILD 3] - 2021-July-14
+- Disallow Negative value in Hit Delay, Horizontal Friction and Vertical Friction
+- Fixed Speed Value Modifier ClassCastException
+
 ## [2021.07.1 BUILD 2] - 2021-July-13
 - Added "switchToSimple" tab completion to Advanced Command Editor - [LeeGod](https://github.com/LeeGodSRC)
 - Allow deletion for Advanced Format Profile in Simple Command Editor - [LeeGod](https://github.com/LeeGodSRC)
