@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.1 BUILD 4] - 2021-July-16
+- Fixed Plugin Command Patch - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.07.1 BUILD 3] - 2021-July-14
 - Disallow Negative value in Hit Delay, Horizontal Friction and Vertical Friction - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed Speed Value Modifier ClassCastException - [LeeGod](https://github.com/LeeGodSRC)
