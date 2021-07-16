@@ -14,6 +14,8 @@ All notable changes to this project will be documented in this file.
   - *Build level NBT Data in IO Thread if chunk has been unloaded*
   - *Dont queue jobs if queue is over an amount (configurable in world config "maxQueuedSizeAutoSave")*
   - *Reattempt chunk save if failure (prevent unnecessary bugged chunk load)*
+- Added Command to Toggle Lag Spike Detector - [LeeGod](https://github.com/LeeGodSRC)
+- Let /tp execute player teleport after chunk loaded - [LeeGod](https://github.com/LeeGodSRC)
 
 ## [2021.07.1 BUILD 4] - 2021-July-16
 - Fixed Plugin Command Patch - [LeeGod](https://github.com/LeeGodSRC)
