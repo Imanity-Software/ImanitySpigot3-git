@@ -8,6 +8,14 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.2 BUILD 2] - 2021-July-20
+- Add Command Documentation for Knockback [`Docs`](https://docs.imanity.dev/books/imanityspigot-3/page/knockback) - [LeeGod](https://github.com/LeeGodSRC)
+- **Premium Feature** Added Lag Spike Alert Message for customization while lag spike alert - [LeeGod](https://github.com/LeeGodSRC)
+- **Premium Feature** Added Ping Self Message for customization when pinging ourself - [LeeGod](https://github.com/LeeGodSRC)
+- Reload Knockback Profiles while `/imanitySpigot reload` - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed ChunkAnalyzer Description in /imanitySpigot - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed Plugin Command again - [Whizyyy](https://github.com/Whizyyy)
+
 ## [2021.07.2 BUILD 1] - 2021-July-16
 - Auto Saving and Chunk Unloading Optimziation - [LeeGod](https://github.com/LeeGodSRC)
   - *Re-added Auto Save cap (configurable in world config "maxAutoSaveChunksPerTick")*
