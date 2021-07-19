@@ -9,7 +9,8 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ## [2021.07.2 BUILD 2] - 2021-July-20
-- Add Command Documentation for Knockback [`Docs`](https://docs.imanity.dev/books/imanityspigot-3/page/knockback) - [LeeGod](https://github.com/LeeGodSRC)
+- Added `!stacktrace` Command in Rancha (This command will print out all thread's stacktrace, useful when having server timed out issues.)
+- Added Command Documentation for Knockback [`Docs`](https://docs.imanity.dev/books/imanityspigot-3/page/knockback) - [LeeGod](https://github.com/LeeGodSRC)
 - **Premium Feature** Added Lag Spike Alert Message for customization while lag spike alert - [LeeGod](https://github.com/LeeGodSRC)
 - **Premium Feature** Added Ping Self Message for customization when pinging ourself - [LeeGod](https://github.com/LeeGodSRC)
 - Reload Knockback Profiles while `/imanitySpigot reload` - [LeeGod](https://github.com/LeeGodSRC)
