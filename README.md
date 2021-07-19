@@ -5,3 +5,6 @@ Thee Issue Tracker for ImanitySpigot3
 - English
 - Chinese (both Simplified/Traditional)
 - French (May be less efficient)
+
+## Credits:
+- Paper for Issue Templates
