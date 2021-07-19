@@ -32,7 +32,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Paper version
+      label: ImanitySpigot3 version
       description: |
         Go to ``SERVER_FOLDER/imanity/rancha.yml`` **Copy and paste** ``spigotJarVersion`` to here
         note that *LATEST* is not a version.
