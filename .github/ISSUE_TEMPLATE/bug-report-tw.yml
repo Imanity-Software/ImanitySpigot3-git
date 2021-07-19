@@ -3,31 +3,29 @@ description: 回報關於插件不相容, 功能缺失 或是 漏洞 相關的�
 body:
   - type: markdown
     attributes:
-      value: |
-        在你回報伺服器崩潰的問題之前, 請確定你目前運行的是最新版的 ImanitySpigot3.
-
+      value: "在你回報伺服器崩潰的問題之前, 請確定你目前運行的是最新版的 ImanitySpigot3."
   - type: textarea
     attributes:
-      label: 預期狀況
-      description: 你期望應該要看到什麼?
+      label: "預期狀況"
+      description: "你期望應該要看到什麼?"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: 實際狀況
-      description: 你實際上看到了什麼?
+      label: "實際狀況"
+      description: "你實際上看到了什麼?"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: 重現的方式
-      description: 可以是一張示意圖, 一個影片或是詳細的說明已幫助開發者重現並修復你回報的問題
+      label: "重現的方式"
+      description: "可以是一張示意圖, 一個影片或是詳細的說明已幫助開發者重現並修復你回報的問題"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: 插件列表
-      description: 所有你的伺服器目前有運行的插件
+      label: "插件列表"
+      description: "所有你的伺服器目前有運行的插件"
     validations:
       required: true
   - type: textarea
@@ -41,19 +39,19 @@ body:
 
   - type: checkboxes
     attributes:
-      label: 同意事項
-      description: 你回報問題的當下符合以下的所有事項.
+      label: "同意事項"
+      description: "你回報問題的當下符合以下的所有事項."
       options:
-        - label: 我目前運行的 ImanitySpigot3 版本在 #client-info 頻道中有顯示在 正在支援 的版本列表裡.
+        - label: "我目前運行的 ImanitySpigot3 版本在 #client-info 頻道中有顯示在 正在支援 的版本列表裡."
           required: true
-        - label: 我有在這個 Issue Tracker 中搜尋過並沒有發現類似的問題回報.
+        - label: "我有在這個 Issue Tracker 中搜尋過並沒有發現類似的問題回報."
           required: true
-        - label: 我已經把原版的 TacoSpigot 1.8.8 和 ImanitySpigot3 互相比較過並且確定只有 ImanitySpigot3 會發生這個問題.
+        - label: "我已經把原版的 TacoSpigot 1.8.8 和 ImanitySpigot3 互相比較過並且確定只有 ImanitySpigot3 會發生這個問題."
           required: true
 
   - type: textarea
     attributes:
-      label: 額外資訊
+      label: "額外資訊"
       description: |
         如果可以的話, 請盡可能提供更多的資訊
         你提供的資訊越多, 我們修復問題的速度越快
