@@ -8,6 +8,14 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.3 BUILD 3] - 2021-July-20
+- Added World.setSpawnLocation(Location) - [LeeGod](https://github.com/LeeGodSRC)
+- Added ability to upload information data on [`code.imanity.dev`](https://code.imanity.dev) with flag - [LeeGod](https://github.com/LeeGodSRC)
+  * `/imanitySpigot chunkAnalyzer export -u` is the command, `-u` flag stands for upload - [LeeGod](https://github.com/LeeGodSRC)
+- Added ability to reload premium.yml while `/imanitySpigot reload` - [LeeGod](https://github.com/LeeGodSRC)
+- Starting Code base for Plugin Manager - [Whizyyy](https://github.com/Whizyyy)
+- Fixed Knockback Reload - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.07.2 BUILD 2] - 2021-July-20
 - Added `!stacktrace` Command in Rancha (This command will print out all thread's stacktrace, useful when having server timed out issues.)
 - Added Command Documentation for Knockback [`Docs`](https://docs.imanity.dev/books/imanityspigot-3/page/knockback) - [LeeGod](https://github.com/LeeGodSRC)
