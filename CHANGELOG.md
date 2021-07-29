@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file.
 - Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/optimization-tips - [LeeGod](https://github.com/LeeGodSRC)
 
 ### Functional
+- Supported Oversized Chunk read & write
 - Added Old Enchanting option - [LeeGod](https://github.com/LeeGodSRC)
 - Added /imanitySpigot docs - [LeeGod](https://github.com/LeeGodSRC)
 
