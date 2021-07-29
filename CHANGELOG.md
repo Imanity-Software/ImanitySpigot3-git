@@ -8,6 +8,36 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.4 BUILD 1] - 2021-July-29
+### Documentation
+- Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/commands - [LeeGod](https://github.com/LeeGodSRC)
+- Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/optimization-tips - [LeeGod](https://github.com/LeeGodSRC)
+
+### Functional
+- Added Old Enchanting option - [LeeGod](https://github.com/LeeGodSRC)
+- Added /imanitySpigot docs - [LeeGod](https://github.com/LeeGodSRC)
+
+### Performance
+- Reduce Chunk Lookup in Entity Ticking - [LeeGod](https://github.com/LeeGodSRC)
+
+### Bug Fixes
+- Fixed FastAsyncWorldEdit support - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed View Distance player disappear issue - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed /curkb Error - [LeeGod](https://github.com/LeeGodSRC)
+
+### API
+- Added PlayerPickupArrowEvent - [LeeGod](https://github.com/LeeGodSRC)
+- Added EntityPickupItemEvent - [LeeGod](https://github.com/LeeGodSRC)
+- Added Player.imanity().setKnockback() - [LeeGod](https://github.com/LeeGodSRC)
+- Added Player.imanity().isCanPickupExperience() - [LeeGod](https://github.com/LeeGodSRC)
+- Added Player.imanity().setCanPickupExperience() - [LeeGod](https://github.com/LeeGodSRC)
+- Added Chunk.getBlock(Location) - [LeeGod](https://github.com/LeeGodSRC)
+
+### Code Quality
+- Improved Physics error silence - [LeeGod](https://github.com/LeeGodSRC)
+- Use Cache instead of MapMaker in Offline Players Cache - [LeeGod](https://github.com/LeeGodSRC)
+- Remove extra useless postToMainThread call - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.07.3 BUILD 3] - 2021-July-20
 - Added World.setSpawnLocation(Location) - [LeeGod](https://github.com/LeeGodSRC)
 - Added ability to upload information data on [`code.imanity.dev`](https://code.imanity.dev) with flag - [LeeGod](https://github.com/LeeGodSRC)
