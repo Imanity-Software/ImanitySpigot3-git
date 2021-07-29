@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-## [2021.07.4 BUILD 1] - 2021-July-29
+## [2021.07.3 BUILD 1] - 2021-July-29
 ### Documentation
 - Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/commands - [LeeGod](https://github.com/LeeGodSRC)
 - Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/optimization-tips - [LeeGod](https://github.com/LeeGodSRC)
@@ -38,7 +38,7 @@ All notable changes to this project will be documented in this file.
 - Use Cache instead of MapMaker in Offline Players Cache - [LeeGod](https://github.com/LeeGodSRC)
 - Remove extra useless postToMainThread call - [LeeGod](https://github.com/LeeGodSRC)
 
-## [2021.07.3 BUILD 3] - 2021-July-20
+## [2021.07.2 BUILD 3] - 2021-July-20
 - Added World.setSpawnLocation(Location) - [LeeGod](https://github.com/LeeGodSRC)
 - Added ability to upload information data on [`code.imanity.dev`](https://code.imanity.dev) with flag - [LeeGod](https://github.com/LeeGodSRC)
   * `/imanitySpigot chunkAnalyzer export -u` is the command, `-u` flag stands for upload - [LeeGod](https://github.com/LeeGodSRC)
