@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.3 BUILD 4] - 2021-July-30
+- Fixed captureDrops order - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.07.3 BUILD 3] - 2021-July-30
 - Added ability to disable drops in BlockBreakEvent - [LeeGod](https://github.com/LeeGodSRC)
 
