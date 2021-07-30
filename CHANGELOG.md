@@ -8,13 +8,17 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.3 BUILD 2] - 2021-July-30
+- Fixed Versioning
+  - *Plugins will now receive 1.8.8-R0.1-SNAPSHOT instead of custom versioning format*
+
 ## [2021.07.3 BUILD 1] - 2021-July-29
 ### Documentation
 - Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/commands - [LeeGod](https://github.com/LeeGodSRC)
 - Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/optimization-tips - [LeeGod](https://github.com/LeeGodSRC)
 
 ### Functional
-- Supported Oversized Chunk read & write
+- Supported Oversized Chunk read & write - [LeeGod](https://github.com/LeeGodSRC)
 - Added Old Enchanting option - [LeeGod](https://github.com/LeeGodSRC)
 - Added /imanitySpigot docs - [LeeGod](https://github.com/LeeGodSRC)
 
