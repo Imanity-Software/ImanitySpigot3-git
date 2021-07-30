@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.3 BUILD 3] - 2021-July-30
+- Added ability to disable drops in BlockBreakEvent - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.07.3 BUILD 2] - 2021-July-30
 - Fixed Versioning - [LeeGod](https://github.com/LeeGodSRC)
   - *Plugins will now receive 1.8.8-R0.1-SNAPSHOT instead of custom versioning format*
