@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ## [2021.07.3 BUILD 2] - 2021-July-30
-- Fixed Versioning
+- Fixed Versioning - [LeeGod](https://github.com/LeeGodSRC)
   - *Plugins will now receive 1.8.8-R0.1-SNAPSHOT instead of custom versioning format*
 
 ## [2021.07.3 BUILD 1] - 2021-July-29
