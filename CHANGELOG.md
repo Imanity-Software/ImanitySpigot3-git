@@ -8,6 +8,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.3 BUILD 5] - 2021-Augest-1
+- Removed option ``nettyNotPreferDirectBuffer`` - [LeeGod](https://github.com/LeeGodSRC)
+- added option ``nettyUseUnpoolBuffer`` - [LeeGod](https://github.com/LeeGodSRC)
+  - *This is an option that patches netty to use unpooled heap buffer so it fixes some compatibility issue*
+
 ## [2021.07.3 BUILD 4] - 2021-July-30
 - Fixed captureDrops order - [LeeGod](https://github.com/LeeGodSRC)
 
