@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.3 BUILD 7] - 2021-Augest-16
+- Fixed Compile Error - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.07.3 BUILD 6] - 2021-Augest-16
 - Added Configurable Merge Range based on Item Type - [LeeGod](https://github.com/LeeGodSRC)
 - Optimized Network connection - [LeeGod](https://github.com/LeeGodSRC)
