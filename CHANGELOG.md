@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.07.3 BUILD 6] - 2021-Augest-16
+- Remove Netty Unpooled buffer option - [LeeGod](https://github.com/LeeGodSRC)
+  - *Moved to patch internally in rancha*
+
 ## [2021.07.3 BUILD 5] - 2021-Augest-1
 - Removed option ``nettyNotPreferDirectBuffer`` - [LeeGod](https://github.com/LeeGodSRC)
 - added option ``nettyUseUnpoolBuffer`` - [LeeGod](https://github.com/LeeGodSRC)
