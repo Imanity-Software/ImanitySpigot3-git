@@ -9,6 +9,11 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ## [2021.07.3 BUILD 6] - 2021-Augest-16
+- Added Configurable Merge Range based on Item Type - [LeeGod](https://github.com/LeeGodSRC)
+- Optimized Network connection - [LeeGod](https://github.com/LeeGodSRC)
+  - *Consolidate flush calls for entity tracker packets*
+  - *Only Flush packets once in flushPacketQueue*
+- Implemented Entity Lookup Improvement - [LeeGod](https://github.com/LeeGodSRC)
 - Remove Netty Unpooled buffer option - [LeeGod](https://github.com/LeeGodSRC)
   - *Moved to patch internally in rancha*
 
