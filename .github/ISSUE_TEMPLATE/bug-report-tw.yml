@@ -8,8 +8,8 @@ body:
 
   - type: textarea
     attributes:
-      label: Expected behavior
-      description: What you expected to see.
+      label: 預期狀況
+      description: 你期望應該要看到什麼?
     validations:
       required: true
   - type: textarea
