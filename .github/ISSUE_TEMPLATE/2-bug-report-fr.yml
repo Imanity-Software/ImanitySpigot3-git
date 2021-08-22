@@ -23,7 +23,7 @@ body:
   - type: textarea
     attributes:
       label: Etapes pour reproduire le problème
-      description: Cela devrait inclure un "schematic" (construction), une vidéo ou des instructions détaillées afin de nous aider à reproduire le problème.
+      description: Cela peut inclure un "schematic" (construction), une vidéo ou des instructions détaillées afin de nous aider à reproduire le problème.
     validations:
       required: true
   - type: textarea
