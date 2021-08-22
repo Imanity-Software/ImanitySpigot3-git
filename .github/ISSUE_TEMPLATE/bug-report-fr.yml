@@ -1,6 +1,7 @@
 name: Bug rencontré ou incompatibilité avec un plugin (Français)
 description: Signaler les problèmes avec la compatibilité des plugins ou autre problème
   observé.
+assignees: Whizyyy
 body:
   - type: markdown
     attributes:
