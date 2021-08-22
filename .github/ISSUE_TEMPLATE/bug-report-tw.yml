@@ -3,7 +3,7 @@ description: "回報關於插件不相容, 功能缺失 或是 漏洞 相關的�
 body:
   - type: markdown
     attributes:
-      value: "在你回報伺服器崩潰的問題之前, 請確定你目前運行的是最新版的 ImanitySpigot3."
+      value: "在你回報問題之前, 請確定你目前運行的是最新版的 ImanitySpigot3."
   - type: textarea
     attributes:
       label: "Expected behavior 預期狀況"
