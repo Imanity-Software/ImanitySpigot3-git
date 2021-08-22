@@ -8,7 +8,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Expected behavior
+      label: Expected behavior測試
       description: "你期望應該要看到什麼?"
     validations:
       required: true
