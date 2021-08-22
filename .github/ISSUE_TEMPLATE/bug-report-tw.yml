@@ -1,62 +1,60 @@
-name: 功能漏洞或插件不相容 (中文)
+name: "功能漏洞或插件不相容 (中文)"
 description: "回報關於插件不相容, 功能缺失 或是 漏洞 相關的問題"
 body:
   - type: markdown
     attributes:
-      value: |
-        在你回報伺服器崩潰的問題之前, 請確定你目前運行的是最新版的 ImanitySpigot3.
-
+      value: "在你回報伺服器崩潰的問題之前, 請確定你目前運行的是最新版的 ImanitySpigot3."
   - type: textarea
     attributes:
-      label: 預期狀況
+      label: "Expected behavior 預期狀況"
       description: "你期望應該要看到什麼?"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Observed/Actual behavior
-      description: What you actually saw.
+      label: "Observed/Actual behavior 實際狀況"
+      description: "你實際上看到了什麼?"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Steps/models to reproduce
-      description: This may include a build schematic, a video, or detailed instructions to help reconstruct the issue.
+      label: "Steps/models to reproduce 重現的方式"
+      description: "可以是一張示意圖, 一個影片或是詳細的說明已幫助開發者重現並修復你回報的問題"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Plugin list
-      description: All plugins running on the server.
+      label: "Plugin list 插件列表"
+      description: "所有你的伺服器目前有運行的插件"
     validations:
       required: true
   - type: textarea
     attributes:
-      label: ImanitySpigot3 version
+      label: "ImanitySpigot3 的版本"
       description: |
-        Go to ``SERVER_FOLDER/imanity/rancha.yml`` **Copy and paste** ``spigotJarVersion`` to here
-        note that *LATEST* is not a version.
+        請去 ``伺服器資料夾/imanity/rancha.yml`` **複製貼上** ``spigotJarVersion`` 的內容
+        請注意! "*最新版*" 並不是一個版本, 請提供一個完整的版本號碼.
     validations:
       required: true
 
   - type: checkboxes
     attributes:
-      label: Agreements
-      description: Please agree to the following.
+      label: "Agreements 同意事項"
+      description: "你回報問題的當下符合以下的所有事項."
       options:
-        - label: I am running the latest version of ImanitySpigot3 available from #client-info channel in our discord.
+        - label: "我目前運行的 ImanitySpigot3 版本在 #client-info 頻道中有顯示在 正在支援 的版本列表裡."
           required: true
-        - label: I have searched for and ensured there isn't already an open issue regarding this.
+        - label: "我有在這個 Issue Tracker 中搜尋過並沒有發現類似的問題回報."
           required: true
-        - label: I have compared the issue inbetween TacoSpigot 1.8.8 and ImanitySpigot3 And only ImanitySpigot3 occured this issue.
+        - label: "我已經把原版的 TacoSpigot 1.8.8 和 ImanitySpigot3 互相比較過並且確定只有 ImanitySpigot3 會發生這個問題."
           required: true
 
   - type: textarea
     attributes:
-      label: Other
+      label: "Others 額外資訊"
       description: |
-        Please include other helpful information below.
-        The more information we receive, the quicker and more effective we can be at finding the solution to the issue.
+        如果可以的話, 請盡可能提供更多的資訊
+        你提供的資訊越多, 我們修復問題的速度越快
     validations:
       required: false
 
