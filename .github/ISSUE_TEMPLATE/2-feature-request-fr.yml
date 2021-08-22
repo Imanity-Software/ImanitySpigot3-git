@@ -1,0 +1,45 @@
+name: Demande de fonctionnalité (Français)
+description: Proposer à ImanitySpigot3 vos suggestions.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci à vous de remplir cette demande de fonctionnalité pour ImanitySpigot3! Merci d'être le plus détaillé possible ainsi, nous pourrons étudier et répondre à votre proposition plus facilement.
+        Veuillez verifier qu'il n'y existe pas déjà une autre demande de fonctionnalité similaire. Si vous en trouvez une, répondez simplement avec vos suggestions.
+        Avant de demander une nouvelle fonctionnalité, veuillez vous assurez que vous utilisez bien la dernière version et que la fonctionnalité que vous demandez n'est pas déjà dans ImanitySpigot3.
+
+  - type: textarea
+    attributes:
+      label: Votre suggestion est-elle liée à un problème ?
+      description: Veuillez nous préciser votre contexte. Pourquoi voulez-vous de cette fonctionnalité ?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Decrivez la solution que vous aimeriez
+      description: Une description rapide et simple de ce que vous souhaitez.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Decrivez les alternatives que vous avez considérer
+      description: Lister toutes les alternatives que vous avez essayez avant de faire votre suggestion.
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Accords
+      description: Veuillez accepter ce qui suit.
+      options:
+        - label: J'ai cherché et vérifié qu'il n'y ai pas d'autre "issue" à propos de ceci.
+          required: true
+        - label: J'ai cherché et vérifié que cette fonctionnalité n'est pas déjà présente dans ImanitySpigot3.
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Autre
+      description: Ajouter tout ce qui peut-être utile pour votre suggestion:: contexte, photo, vidéo...
+    validations:
+      required: false
