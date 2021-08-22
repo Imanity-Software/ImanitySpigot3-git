@@ -1,4 +1,4 @@
-name: Behavior Bug or Plugin Incompatibility (English)
+name: (English) Behavior Bug or Plugin Incompatibility
 description: Report issues with plugin incompatbility or other behavior related issues.
 body:
   - type: markdown
