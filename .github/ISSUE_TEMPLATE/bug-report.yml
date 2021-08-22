@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before reporting a crash here, please make sure you are on the latest version of ImanitySpigot3.
+        Before reporting an issue here, please make sure you are on the latest version of ImanitySpigot3.
 
   - type: textarea
     attributes:
