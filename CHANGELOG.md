@@ -8,6 +8,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.08.1 BUILD 1] - 2021-Augest-22
+- Fixed Citizens Compatibility - [LeeGod](https://github.com/LeeGodSRC)
+- Improved Configuration Descriptions - [Whizyyy](https://github.com/Whizyyy)
+- Improved Security - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.07.3 BUILD 7] - 2021-Augest-16
 - Fixed Compile Error - [LeeGod](https://github.com/LeeGodSRC)
 
