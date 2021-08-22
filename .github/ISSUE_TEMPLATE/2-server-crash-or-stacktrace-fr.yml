@@ -1,0 +1,62 @@
+name: (Français) Serveur crash ou erreur en console
+description: Signaler un crash de serveur ou une erreur étrange
+assignees: Whizyyy
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Avant de signaler un crash ou une erreur ici, veuillez vous assurez que vous utilisez bien la dernière version d'ImanitySpigot3.
+  - type: textarea
+    attributes:
+      label: Message d'erreur en console
+      description: |
+        Nous avons besoin de toute l'erreur! Ne nous envoyez pas seulement une partie de celle-ci. Et n'utilisez pas d'image.
+        Si vous préférez, vous pouvez utiliser un site comme https://paste.imanity.dev/ pour nous partager les erreurs.
+      value: |
+        ```
+        Collez votre erreur ou votre lien https://paste.imanity.dev/ ici!
+        ```
+      placeholder: Ne retirez pas les apostrophes (```); Cela rend votre erreur beaucoup plus difficile à lire!
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Liste des plugins
+      description: Tous les plugins en cours d'exécution sur le serveur.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Etapes pour réproduire le problème (si vous le savez)
+      description: Cela peut inclure un "schematic" (construction), une vidéo ou des instructions détaillées afin de nous aider à reproduire le problème. Tout ce qui peut aider!
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: ImanitySpigot3 version
+      description: |
+        Aller dans ``SERVER_FOLDER/imanity/rancha.yml`` **Copier et Coller** ``spigotJarVersion`` ici
+        A noter que *LATEST* n'est pas une version.
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Accords
+      description: Veuillez accepter ce qui suit.
+      options:
+        - label: J'utilise la dernière version d'ImanitySpigot3 disponible depuis le salon #client-info sur notre discord.
+          required: true
+        - label: J'ai fais des recherches afin d'être certains qu'il n'y est pas déjà une "issue" ouverte à ce sujet.
+          required: true
+        - label: J'ai fais des comparaisons du problème entre TacoSpigot 1.8.8 et ImanitySpigot3. Et ce problème se produit seulement avec ImanitySpigot3.
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Autre
+      description: |
+        Merci d'inclure les autres informations qui peuvent aider ci-dessous.
+        Plus nous recevons d'informations, le plus vite et plus efficacement nous pouvons trouver une solution au problème.
+    validations:
+      required: false
