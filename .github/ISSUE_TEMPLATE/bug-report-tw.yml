@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before reporting a crash here, please make sure you are on the latest version of ImanitySpigot3.
+        在你回報伺服器崩潰的問題之前, 請確定你目前運行的是最新版的 ImanitySpigot3.
 
   - type: textarea
     attributes:
