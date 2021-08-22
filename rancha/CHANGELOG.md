@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.08.1 BUILD 4] - 2021-Augest-22
+- Fixed an error on startup - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.08.1 BUILD 3] - 2021-Augest-22
 - Improved Security - [LeeGod](https://github.com/LeeGodSRC)
 
