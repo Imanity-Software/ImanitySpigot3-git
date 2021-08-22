@@ -1,0 +1,44 @@
+name: 功能建議
+description: 給予 ImanitySpigot3 新功能的建議
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感謝您願意提供 ImanitySpigot3 建議! 為了能盡速讓開發人員理解並審核你的要求, 請盡可能給予昨夠多的細節
+        不過在填寫建議之前, 請先到Issues中尋找是否已經有人提出類似的建議. 如果有的話, 請直接在那個建議下方說明 而不是開一個新的建議.
+        並且請確保你使用的 ImanitySpigot3 是最新版的. 說不定你的建議已經在更新的版本中實裝了.
+  - type: textarea
+    attributes:
+      label: Is your feature request related to a problem? 你的問題是否與一個問題有關?
+      description: 可以的話 麻煩告訴我們為什麼你想要加這個功能?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the solution you'd like. 說明你的建議
+      description: 請給予我們一個 清晰 並且 完整的資訊
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe alternatives you've considered. 你是否有想過其他的解決方法?
+      description: 如果有的話 請告訴我們你嘗試過哪些方法
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Agreements 同意事項
+      description: 你回報問題的當下符合以下的所有事項.
+      options:
+        - label: 我已經嘗試在 Issues 中搜尋是否有人提出類似的建議
+          required: true
+        - label: 我已經確定這個功能並沒有實裝到最新版的 ImanitySpigot3 中
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Others 額外資訊
+      description: 如果可以的話, 請盡可能提供更多的資訊
+    validations:
+      required: false
