@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.08.1 BUILD 3] - 2021-Augest-22
+- Improved Security - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.08.1 BUILD 2] - 2021-Augest-16
 - Added option forceNettyUseUnpoolBuffer - [LeeGod](https://github.com/LeeGodSRC)
 
