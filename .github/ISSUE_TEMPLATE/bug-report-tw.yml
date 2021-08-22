@@ -1,5 +1,5 @@
-name: 功能漏洞或插件不相容 (中文)
-description: 回報關於插件不相容, 功能缺失 或是 漏洞 相關的問題
+name: "功能漏洞或插件不相容 (中文)"
+description: "回報關於插件不相容, 功能缺失 或是 漏洞 相關的問題"
 body:
   - type: markdown
     attributes:
@@ -30,7 +30,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: ImanitySpigot3 的版本
+      label: "ImanitySpigot3 的版本"
       description: |
         請去 ``伺服器資料夾/imanity/rancha.yml`` **複製貼上** ``spigotJarVersion`` 的內容
         請注意! "*最新版*" 並不是一個版本, 請提供一個完整的版本號碼.
