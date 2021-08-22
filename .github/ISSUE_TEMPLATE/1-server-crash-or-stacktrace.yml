@@ -1,4 +1,4 @@
-name: Server crash or Stacktrace
+name: (English) Server crash or Stacktrace
 description: Report server crashes or scary stacktraces
 body:
   - type: markdown
