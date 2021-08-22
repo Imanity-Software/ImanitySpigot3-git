@@ -1,4 +1,4 @@
-name: 伺服器崩潰 或是 後台的堆疊追蹤 (中文)
+name: (中文) 伺服器崩潰 或是 後台的堆疊追蹤
 description: 回報一個伺服器崩潰的問題 或是 後台出現一大串可怕的堆疊追蹤 (Stacktrace)
 body:
   - type: markdown
