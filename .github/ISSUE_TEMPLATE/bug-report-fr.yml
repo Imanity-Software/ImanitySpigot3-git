@@ -1,0 +1,63 @@
+name: Bug rencontré ou incompatibilité avec un plugin (Français)
+description: Signaler les problèmes avec la compatibilité des plugins ou autre problème
+  observé.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Avant de signalier un crash ici, veuillez vous assurez que vous utilisez bien la dernière version d'ImanitySpigot3.
+
+  - type: textarea
+    attributes:
+      label: Comportement attendu
+      description: Ce que vous êtes supposé voir.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Comportement actuel/observé
+      description: Ce qu'actuellement vous pouvez voir/observer.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Etapes pour reproduire le problème
+      description: Cela devrait inclure un "schematic" (construction), une vidéo ou des instructions détaillées afin de nous aider à reproduire le problème.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Liste des plugins
+      description: Les plugins installés sur le serveur.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: ImanitySpigot3 version
+      description: |
+        Aller dans ``SERVER_FOLDER/imanity/rancha.yml`` **Copier et Coller** ``spigotJarVersion`` ici
+        à noter que *LATEST* n'est pas une version.
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Accords
+      description: Veuillez accepter ce qui suit.
+      options:
+        - label: J'utilise la dernière version d'ImanitySpigot3 disponible depuis le salon #client-info sur notre discord.
+          required: true
+        - label: J'ai fais des recherches afin d'être certains qu'il n'y est pas déjà une "issue" ouverte à ce sujet.
+          required: true
+        - label: J'ai fais des comparaisons du problème entre TacoSpigot 1.8.8 et ImanitySpigot3. Et ce problème se produit seulement avec ImanitySpigot3.
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Other
+      description: |
+        Veuillez inclure toutes les informations utiles ci-dessous.
+        Plus nous possédons d'informations, plus rapidement et efficacement nous pouvons trouver une solution au problème.
+    validations:
+      required: false
+
