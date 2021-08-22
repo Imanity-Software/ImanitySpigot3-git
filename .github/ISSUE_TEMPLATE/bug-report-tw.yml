@@ -1,5 +1,5 @@
 name: 功能漏洞或插件不相容 (中文)
-description: Report issues with plugin incompatbility or other behavior related issues.
+description: "回報關於插件不相容, 功能缺失 或是 漏洞 相關的問題"
 body:
   - type: markdown
     attributes:
