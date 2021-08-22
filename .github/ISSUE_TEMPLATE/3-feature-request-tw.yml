@@ -1,5 +1,6 @@
 name: (中文) 功能建議
 description: 給予 ImanitySpigot3 新功能的建議
+assignees: LeeGod
 body:
   - type: markdown
     attributes:

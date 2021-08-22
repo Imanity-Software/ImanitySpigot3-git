@@ -1,5 +1,6 @@
 name: Demande de fonctionnalité (Français)
 description: Proposer à ImanitySpigot3 vos suggestions.
+assignees: Whizyyy
 body:
   - type: markdown
     attributes:
