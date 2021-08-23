@@ -41,6 +41,6 @@ body:
   - type: textarea
     attributes:
       label: Autre
-      description: Ajouter tout ce qui peut-être utile pour votre suggestion:: contexte, photo, vidéo...
+      description: Ajouter tout ce qui peut-être utile pour votre suggestion (contexte, photo, vidéo...)
     validations:
       required: false
