@@ -8,6 +8,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.08.1 BUILD 5] - 2021-Augest-22
+- Warning when netty patch failed because of Java 12+ - [LeeGod](https://github.com/LeeGodSRC)
+  - *This error is not able to patch, Servers need ``--illegal-access=permit`` in their startup flag inorder to fix it*
+- If launching Spigot JAR failed, Rancha will suggest to update and give 30 seconds of wait time - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.08.1 BUILD 4] - 2021-Augest-22
 - Fixed an error on startup - [LeeGod](https://github.com/LeeGodSRC)
 
