@@ -8,7 +8,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-## [2021.08.1 BUILD 2] - 2021-Augest-33
+## [2021.08.1 BUILD 3] - 2021-Augest-23
+- Fixed an issue cause EntityTracker broken - [LeeGod](https://github.com/LeeGodSRC)
+  - *This issue may result in you can't see other players, which is fixed now*
+
+## [2021.08.1 BUILD 2] - 2021-Augest-23
 - Added check for ChunkRegionLoader, if it's not ChunkRegionLoader don't activate Async Chunk
 - Added reference Taliban Pearl showcase video
 - Fixed [`#12`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/12)
