@@ -8,6 +8,13 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.08.1 BUILD 2] - 2021-Augest-33
+- Added check for ChunkRegionLoader, if it's not ChunkRegionLoader don't activate Async Chunk
+- Added reference Taliban Pearl showcase video
+- Fixed [`#12`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/12)
+- Fixed [`#13`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/13)
+- Fixed [`#14`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/14)
+
 ## [2021.08.1 BUILD 1] - 2021-Augest-22
 - Fixed Citizens Compatibility - [LeeGod](https://github.com/LeeGodSRC)
 - Improved Configuration Descriptions - [Whizyyy](https://github.com/Whizyyy)
