@@ -8,6 +8,20 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.08.1 BUILD 4] - 2021-Augest-25
+- Fixed an issue while Old Enchanting is disabled - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixes [#16](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/16)*
+- Flooring BlockPosition in Explosion - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixes [#17](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/17)*
+- Changed option higherDurabilityMultiplier to durabilityMultiplier - [LeeGod](https://github.com/LeeGodSRC)
+- Improved option durabilityMultiplier - [LeeGod](https://github.com/LeeGodSRC) [Whizyyy](https://github.com/Whizyyy)
+  - *durabilityMultiplier instead of diving use multiply is more intuitive*
+  - *Fixed comment*
+- Added Notes for knockback related stuff - [LeeGod](https://github.com/LeeGodSRC)
+  - *extraHorizontal*
+  - *extraVertical*
+  - *default profile system*
+
 ## [2021.08.1 BUILD 3] - 2021-Augest-23
 - Fixed an issue cause EntityTracker broken - [LeeGod](https://github.com/LeeGodSRC)
   - *This issue may result in you can't see other players, which is fixed now*
