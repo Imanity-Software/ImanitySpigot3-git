@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.08.1 BUILD 5] - 2021-Augest-26
+- Added world config option **``blockOperation``** - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.08.1 BUILD 4] - 2021-Augest-25
 - Fixed an issue while Old Enchanting is disabled - [LeeGod](https://github.com/LeeGodSRC)
   - *Fixes [#16](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/16)*
