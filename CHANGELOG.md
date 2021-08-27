@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.08.1 BUILD 6] - 2021-Augest-27
+- Added Hard coded Async Catcher to unloadQueue - [LeeGod](https://github.com/LeeGodSRC)
+- Improved option **``durabilityMultiplier``** - [LeeGod](https://github.com/LeeGodSRC)
+  - *round durabilityMultiplier multiplied result*
+  - *update inventory if durabilityMultiplier has a different result, so it synced with clients*
+
 ## [2021.08.1 BUILD 5] - 2021-Augest-26
 - Added world config option **``blockOperation``** - [LeeGod](https://github.com/LeeGodSRC)
 
