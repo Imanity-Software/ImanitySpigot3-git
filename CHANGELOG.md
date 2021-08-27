@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.08.1 BUILD 7] - 2021-Augest-27
+- Fixed an critical error - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed an issue with loadChunk() and regenerateChunk() while async chunk is enabled - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.08.1 BUILD 6] - 2021-Augest-27
 - Added Hard coded Async Catcher to unloadQueue - [LeeGod](https://github.com/LeeGodSRC)
 - Improved option **``durabilityMultiplier``** - [LeeGod](https://github.com/LeeGodSRC)
