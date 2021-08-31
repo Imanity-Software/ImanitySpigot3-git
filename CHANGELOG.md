@@ -8,6 +8,16 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.08.1 BUILD 8] - 2021-Augest-31
+- Prevent Fire Spread load chunks - [LeeGod](https://github.com/LeeGodSRC)
+- Force getChunkAt() main thread - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed in some cases plugins broke when getChunkAt and get error with async catcher*
+- Only process BlockPhysicsEvent if a plugin has a listener - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed hard coded async catcher unloadQueue - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixes some critial performance issues*
+- Fixed Tile Entity Unload Lag Spike - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed Cancelling BlockPlaceEvent triggering physics - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.08.1 BUILD 7] - 2021-Augest-27
 - Fixed an critical error - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed an issue with loadChunk() and regenerateChunk() while async chunk is enabled - [LeeGod](https://github.com/LeeGodSRC)
