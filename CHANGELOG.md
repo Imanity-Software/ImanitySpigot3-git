@@ -14,7 +14,9 @@ All notable changes to this project will be documented in this file.
   - *Fixed in some cases plugins broke when getChunkAt and get error with async catcher*
 - Only process BlockPhysicsEvent if a plugin has a listener - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed hard coded async catcher unloadQueue - [LeeGod](https://github.com/LeeGodSRC)
-  - *Fixes some critial performance issues*
+  - *Fixes [`#26`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/26)
+- Fixed wrong index field were being used in PlayerInventory clear - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed [`#25`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/25)
 - Fixed Tile Entity Unload Lag Spike - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed Cancelling BlockPlaceEvent triggering physics - [LeeGod](https://github.com/LeeGodSRC)
 
