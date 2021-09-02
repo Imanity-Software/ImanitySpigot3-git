@@ -8,6 +8,29 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.09.1 BUILD 1] - 2021-September-2
+**NOTE: This is a different release. If you don't have ``automated.updateToLatestVersion`` enabled in imanity/rancha.yml, No auto update will be processed.**
+
+### API Changes
+- Added ``org.bukkit.entity.Mob`` interface. Refer to entities that has AI - [LeeGod](https://github.com/LeeGodSRC)
+  - *This is the same interface that >=1.12 bukkit API has, You can use it safety on both ImanitySpigot and modern APIs.*
+- Added ``com.destroystokyo.paper.entity.RangedEntity`` interface. Refer to entities that has Ranged attack ability (ex: Skeletion) - [LeeGod](https://github.com/LeeGodSRC)
+  - *a replica of modern Paper's interface. some method aren't possible to be ported*
+- Added ``com.destroystokyo.paper.entity.Pathfinder`` interface. Open the possibility to control Pathfinding without NMS - [LeeGod](https://github.com/LeeGodSRC)
+  - *This is the same interface that >=1.13 Paper API has, You can use it safety on both ImanitySpigot and modern APIs.*
+- Added ``org.imanity.imanityspigot.ai`` package of interfaces. Open the possibility to control Mob AI / Goals without NMS - [LeeGod](https://github.com/LeeGodSRC)
+  - *a replica of modern Paper's interface (>=1.15). Due to Mojang changes a lot in terms of Goal types, some aren't possible to port*
+  - ***Documentation available [HERE](https://docs.imanity.dev/books/imanityspigot-3/page/mob-ai)***
+- MobAIHandler is now desperated. - [Whizyyy](https://github.com/Whizyyy)
+- Bumped Maven dependency version to ``2021.09.1b1`` - [LeeGod](https://github.com/LeeGodSRC)
+
+### Bug Fixes
+- Fixed an error on startup - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed Compatibility patch for Citizens - [LeeGod](https://github.com/LeeGodSRC)
+
+### Docs Changes
+- Added Documentation Page for Mob AI **[``HERE``](https://docs.imanity.dev/books/imanityspigot-3/page/mob-ai)** - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.08.1 BUILD 8] - 2021-Augest-31
 - Prevent Fire Spread load chunks - [LeeGod](https://github.com/LeeGodSRC)
 - Force getChunkAt() main thread - [LeeGod](https://github.com/LeeGodSRC)
