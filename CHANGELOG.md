@@ -4,11 +4,36 @@
 - [LeeGod](https://github.com/LeeGodSRC)
 - [Whizyyy](https://github.com/Whizyyy)
 
-All notable changes to this project will be documented in this file.
+All notable changes 
+
+to this project will be documented in this file.
 
 ## [Unreleased]
 
-## [2021.09.1 BUILD 1] - 2021-September-2
+## (New Release) [2021.09.2 BUILD 1] - 2021-September-18
+**NOTE: This is a different release. If you don't have ``automated.updateToLatestVersion`` enabled in imanity/rancha.yml, No auto update will be processed.**
+
+### Knockback Changes
+- Added Knockback Control Centre - [LeeGod](https://github.com/LeeGodSRC)
+  - *This is a completely redesigned knockback editor system*
+  - *This is the very first update with Knockback Control Centre implementation*
+  - *Some feature is lacking:*
+    - *Simple editor*
+    - *Knockback per world options*
+- Added damager specify for velocities behaviour - [LeeGod](https://github.com/LeeGodSRC)
+- Removed priority for behaviour - [LeeGod](https://github.com/LeeGodSRC)
+  - *Replaced by list order swapping*
+
+https://user-images.githubusercontent.com/36093806/133881160-de77bbb1-2853-4d4d-818e-2fc2d5bab606.mp4
+
+### Bug Fixes
+- Fixed region modification location incorrect issue - [LeeGod](https://github.com/LeeGodSRC)
+
+### Code Quality
+- Added brand new source generator for Source code buyers - [LeeGod](https://github.com/LeeGodSRC)
+- Removed WorldData debug code - [LeeGod](https://github.com/LeeGodSRC)
+
+## (New Release) [2021.09.1 BUILD 1] - 2021-September-2
 **NOTE: This is a different release. If you don't have ``automated.updateToLatestVersion`` enabled in imanity/rancha.yml, No auto update will be processed.**
 
 ### API Changes
@@ -81,7 +106,7 @@ All notable changes to this project will be documented in this file.
 - Fixed [`#13`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/13)
 - Fixed [`#14`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/14)
 
-## [2021.08.1 BUILD 1] - 2021-Augest-22
+## (New Release) [2021.08.1 BUILD 1] - 2021-Augest-22
 - Fixed Citizens Compatibility - [LeeGod](https://github.com/LeeGodSRC)
 - Improved Configuration Descriptions - [Whizyyy](https://github.com/Whizyyy)
 - Improved Security - [LeeGod](https://github.com/LeeGodSRC)
@@ -113,7 +138,7 @@ All notable changes to this project will be documented in this file.
 - Fixed Versioning - [LeeGod](https://github.com/LeeGodSRC)
   - *Plugins will now receive 1.8.8-R0.1-SNAPSHOT instead of custom versioning format*
 
-## [2021.07.3 BUILD 1] - 2021-July-29
+## (New Release) [2021.07.3 BUILD 1] - 2021-July-29
 ### Documentation
 - Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/commands - [LeeGod](https://github.com/LeeGodSRC)
 - Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/optimization-tips - [LeeGod](https://github.com/LeeGodSRC)
@@ -161,7 +186,7 @@ All notable changes to this project will be documented in this file.
 - Fixed ChunkAnalyzer Description in /imanitySpigot - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed Plugin Command again - [Whizyyy](https://github.com/Whizyyy)
 
-## [2021.07.2 BUILD 1] - 2021-July-16
+## (New Release) [2021.07.2 BUILD 1] - 2021-July-16
 - Auto Saving and Chunk Unloading Optimziation - [LeeGod](https://github.com/LeeGodSRC)
   - *Re-added Auto Save cap (configurable in world config "maxAutoSaveChunksPerTick")*
   - *Build level NBT Data in IO Thread if chunk has been unloaded*
@@ -184,7 +209,7 @@ All notable changes to this project will be documented in this file.
 - Fixed Command Type Choice being useless - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed /plugins color code - [Whizyyy](https://github.com/Whizyyy)
 
-## [2021.07.1 BUILD 1] - 2021-July-12
+## (New Release) [2021.07.1 BUILD 1] - 2021-July-12
 - Added documentation page for Knockback System https://docs.imanity.dev/books/imanityspigot-3/page/knockback
 - Added Command "/curkb <player>" to view player's current knockback
 - Added Command "/kb togglePerWorld" to enable Knockback Per World in game
@@ -206,7 +231,7 @@ All notable changes to this project will be documented in this file.
 ## [2021.06.2 BUILD 2] - 2021-June-27
 - Fixed Compile Error
 
-## [2021.06.2 BUILD 1] - 2021-June-26
+## (New Release) [2021.06.2 BUILD 1] - 2021-June-26
 
 ### API Changes
 - Added getKnockback method to KnockbackService.
