@@ -10,8 +10,8 @@ to this project will be documented in this file.
 
 ## [Unreleased]
 
-## (New Release) [2021.09.2 BUILD 1] - 2021-September-18
-**NOTE: This is a different release. If you don't have ``automated.updateToLatestVersion`` enabled in imanity/rancha.yml, No auto update will be processed.**
+## [2021.09.2 BUILD 1] - 2021-September-18
+**``(New Release)``**
 
 ### Knockback Changes
 - Added Knockback Control Centre - [LeeGod](https://github.com/LeeGodSRC)
@@ -33,8 +33,8 @@ https://user-images.githubusercontent.com/36093806/133881160-de77bbb1-2853-4d4d-
 - Added brand new source generator for Source code buyers - [LeeGod](https://github.com/LeeGodSRC)
 - Removed WorldData debug code - [LeeGod](https://github.com/LeeGodSRC)
 
-## (New Release) [2021.09.1 BUILD 1] - 2021-September-2
-**NOTE: This is a different release. If you don't have ``automated.updateToLatestVersion`` enabled in imanity/rancha.yml, No auto update will be processed.**
+## [2021.09.1 BUILD 1] - 2021-September-2
+**``(New Release)``**
 
 ### API Changes
 - Added ``org.bukkit.entity.Mob`` interface. Refer to entities that has AI - [LeeGod](https://github.com/LeeGodSRC)
@@ -106,7 +106,9 @@ https://user-images.githubusercontent.com/36093806/133881160-de77bbb1-2853-4d4d-
 - Fixed [`#13`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/13)
 - Fixed [`#14`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/14)
 
-## (New Release) [2021.08.1 BUILD 1] - 2021-Augest-22
+## [2021.08.1 BUILD 1] - 2021-Augest-22
+**``(New Release)``**
+
 - Fixed Citizens Compatibility - [LeeGod](https://github.com/LeeGodSRC)
 - Improved Configuration Descriptions - [Whizyyy](https://github.com/Whizyyy)
 - Improved Security - [LeeGod](https://github.com/LeeGodSRC)
@@ -138,7 +140,9 @@ https://user-images.githubusercontent.com/36093806/133881160-de77bbb1-2853-4d4d-
 - Fixed Versioning - [LeeGod](https://github.com/LeeGodSRC)
   - *Plugins will now receive 1.8.8-R0.1-SNAPSHOT instead of custom versioning format*
 
-## (New Release) [2021.07.3 BUILD 1] - 2021-July-29
+## [2021.07.3 BUILD 1] - 2021-July-29
+**``(New Release)``**
+
 ### Documentation
 - Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/commands - [LeeGod](https://github.com/LeeGodSRC)
 - Added Documentation Page https://docs.imanity.dev/books/imanityspigot-3/page/optimization-tips - [LeeGod](https://github.com/LeeGodSRC)
@@ -186,7 +190,9 @@ https://user-images.githubusercontent.com/36093806/133881160-de77bbb1-2853-4d4d-
 - Fixed ChunkAnalyzer Description in /imanitySpigot - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed Plugin Command again - [Whizyyy](https://github.com/Whizyyy)
 
-## (New Release) [2021.07.2 BUILD 1] - 2021-July-16
+## [2021.07.2 BUILD 1] - 2021-July-16
+**``(New Release)``**
+
 - Auto Saving and Chunk Unloading Optimziation - [LeeGod](https://github.com/LeeGodSRC)
   - *Re-added Auto Save cap (configurable in world config "maxAutoSaveChunksPerTick")*
   - *Build level NBT Data in IO Thread if chunk has been unloaded*
@@ -209,7 +215,9 @@ https://user-images.githubusercontent.com/36093806/133881160-de77bbb1-2853-4d4d-
 - Fixed Command Type Choice being useless - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed /plugins color code - [Whizyyy](https://github.com/Whizyyy)
 
-## (New Release) [2021.07.1 BUILD 1] - 2021-July-12
+## [2021.07.1 BUILD 1] - 2021-July-12
+**``(New Release)``**
+
 - Added documentation page for Knockback System https://docs.imanity.dev/books/imanityspigot-3/page/knockback
 - Added Command "/curkb <player>" to view player's current knockback
 - Added Command "/kb togglePerWorld" to enable Knockback Per World in game
@@ -231,7 +239,8 @@ https://user-images.githubusercontent.com/36093806/133881160-de77bbb1-2853-4d4d-
 ## [2021.06.2 BUILD 2] - 2021-June-27
 - Fixed Compile Error
 
-## (New Release) [2021.06.2 BUILD 1] - 2021-June-26
+## [2021.06.2 BUILD 1] - 2021-June-26
+**``(New Release)``**
 
 ### API Changes
 - Added getKnockback method to KnockbackService.
