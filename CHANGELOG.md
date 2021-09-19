@@ -10,6 +10,10 @@ to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [2021.09.2 BUILD 2] - 2021-September-20
+- Changed max text length in profile name, behaviour name and modifier name to 16 characters - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed [``#31``](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/31) - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.09.2 BUILD 1] - 2021-September-18
 **``(New Release)``**
 
