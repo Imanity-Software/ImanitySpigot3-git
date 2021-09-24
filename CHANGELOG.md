@@ -8,7 +8,26 @@ All notable changes
 
 to this project will be documented in this file.
 
-## [Unreleased]
+# **[Pre Release]**
+
+## [2021.09.3 BUILD 1] - 2021-September-24
+**``(New Release)``**
+
+**⚠️ Update required for [``Rancha 2021.09.1 BUILD 1``](https://github.com/Imanity-Software/ImanitySpigot3-git/blob/master/rancha/CHANGELOG.md#2021091-build-1---2021-september-24)**
+
+### Functional
+- Added Metrics [``HERE``](https://bstats.org/plugin/bukkit/ImanitySpigot3/12858)
+- Don't compile mockito-core directly into jar
+- Improved lag spike logger
+  - *Fixed a problem where old entries were still counted in new lag spike log*
+  - *Added tick count display for each entries*
+
+### API Changes
+- Added API annotation to every imanitySpigot package API classes
+- Added Chunk Analyse API
+  - *Documentation will be added soon*
+
+# **[Experimental]**
 
 ## [2021.09.2 BUILD 2] - 2021-September-20
 - Changed max text length in profile name, behaviour name and modifier name to 16 characters - [LeeGod](https://github.com/LeeGodSRC)
