@@ -6,7 +6,10 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [2021.09.1 BUILD 1] - 2021-September-24
+- Added mockito library - [LeeGod](https://github.com/LeeGodSRC)
+- Added ability to write paste with specific content type - [LeeGod](https://github.com/LeeGodSRC)
+- Removed thread displaying in log4j format - [LeeGod](https://github.com/LeeGodSRC)
 
 ## [2021.08.1 BUILD 5] - 2021-Augest-22
 - Warning when netty patch failed because of Java 12+ - [LeeGod](https://github.com/LeeGodSRC)
