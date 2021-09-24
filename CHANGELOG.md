@@ -17,7 +17,6 @@ to this project will be documented in this file.
 
 ### Functional
 - Added Metrics [``HERE``](https://bstats.org/plugin/bukkit/ImanitySpigot3/12858)
-- Don't compile mockito-core directly into jar
 - Improved lag spike logger
   - *Fixed a problem where old entries were still counted in new lag spike log*
   - *Added tick count display for each entries*
@@ -26,6 +25,9 @@ to this project will be documented in this file.
 - Added API annotation to every imanitySpigot package API classes
 - Added Chunk Analyse API
   - *Documentation will be added soon*
+
+### Code Quality
+- Don't compile mockito-core directly into jar
 
 # **[Experimental]**
 
