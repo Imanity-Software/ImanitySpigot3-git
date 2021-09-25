@@ -10,6 +10,11 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.09.3 BUILD 2] - 2021-September-25
+- Added documentation page [``Knockback - Getting Started``](https://docs.imanity.dev/books/imanityspigot-3/page/getting-started) - [LeeGod](https://github.com/LeeGodSRC)
+- Added Getting Started page into Control Centre page - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed some issue in Control Centre - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.09.3 BUILD 1] - 2021-September-24
 **``(New Release)``**
 
