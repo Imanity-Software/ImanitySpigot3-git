@@ -10,6 +10,9 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.09.3 BUILD 4] - 2021-September-28
+- Fixed an NPE error - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.09.3 BUILD 3] - 2021-September-28
 - Fixed some memory leak issues - [LeeGod](https://github.com/LeeGodSRC)
 
