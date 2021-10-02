@@ -10,6 +10,18 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.09.3 BUILD 5] - 2021-October-02
+- Added classic knockback profile importer - [LeeGod](https://github.com/LeeGodSRC)
+  - *The ability to import knockback profiles from ImanitySpigot2*
+  - *This only works on knockbacks that was advanced module.*
+- Added classic knockback behaviour - [LeeGod](https://github.com/LeeGodSRC)
+  - *Repersent advanced module from ImanitySpigot2*
+- Added option "asyncChunkLoads.waitForChunks" - [LeeGod](https://github.com/LeeGodSRC)
+- Improve algorithm for chunk tick list - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed broken plugin nms compatibility in Server Connection - [LeeGod](https://github.com/LeeGodSRC)
+
+https://user-images.githubusercontent.com/36093806/135712330-e1c1d3dd-1716-4458-9596-78c358a97b83.mp4
+
 ## [2021.09.3 BUILD 4] - 2021-September-28
 - Fixed an NPE error - [LeeGod](https://github.com/LeeGodSRC)
 
