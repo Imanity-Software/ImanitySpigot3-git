@@ -10,6 +10,25 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.10.1 BUILD 1] - 2021-October-07
+**``(New Release)``**
+
+**⚠️ Update required for [``Rancha 2021.09.1 BUILD 2``](https://github.com/Imanity-Software/ImanitySpigot3-git/blob/master/rancha/CHANGELOG.md#2021091-build-1---2021-september-24)**
+
+### Functional
+- Added chunkTickRate option - [LeeGod](https://github.com/LeeGodSRC)
+- Added ability to change plugin enable / plugin disable color for premium - [Whizyyy](https://github.com/Whizyyy)
+- Made <processCpuLoad> display as percentage - [LeeGod](https://github.com/LeeGodSRC)
+
+### Bug Fixes
+- Fixed chunk tick algorithm - [LeeGod](https://github.com/LeeGodSRC)
+- - Fixed Cactus growing without a limit - [LeeGod](https://github.com/LeeGodSRC)
+
+### Code Quality
+- Improved block position allocation - [LeeGod](https://github.com/LeeGodSRC)
+- Reduce the amount of chunk lookup in setTypeAndData() - [LeeGod](https://github.com/LeeGodSRC)
+- Changed C/I to Github Action - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.09.3 BUILD 5] - 2021-October-02
 - Added classic knockback profile importer - [LeeGod](https://github.com/LeeGodSRC)
   - *The ability to import knockback profiles from ImanitySpigot2*
