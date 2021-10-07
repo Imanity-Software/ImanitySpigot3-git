@@ -6,6 +6,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.09.1 BUILD 2] - 2021-October-07
+- compatible to ``2021.10.1 BUILD 1`` ImanitySpigot3 - [Whizyyy](https://github.com/Whizyyy)
+- Made default message display Imanity - Software instead of [Imanity] for ``/imanity`` - [Whizyyy](https://github.com/Whizyyy)
+- Improved configuration section for Premium - [Whizyyy](https://github.com/Whizyyy)
+
 ## [2021.09.1 BUILD 1] - 2021-September-24
 - Added mockito library - [LeeGod](https://github.com/LeeGodSRC)
 - Added ability to write paste with specific content type - [LeeGod](https://github.com/LeeGodSRC)
