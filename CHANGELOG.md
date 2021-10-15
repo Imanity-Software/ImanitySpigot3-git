@@ -10,6 +10,17 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.10.1 BUILD 2] - 2021-October-16
+- **EXPERIMENTAL** Added server side hit detection - [LeeGod](https://github.com/LeeGodSRC)
+- Added option "asyncChunkLoads.chunkGenerateThreads" - [LeeGod](https://github.com/LeeGodSRC)
+- Added command "/imanitySpigot fillWorld" - [LeeGod](https://github.com/LeeGodSRC)
+- Added debug for entity slice - [LeeGod](https://github.com/LeeGodSRC)
+- Chunk Generation is now capable for multi-threads - [LeeGod](https://github.com/LeeGodSRC)
+- Use shared random for entities - [LeeGod](https://github.com/LeeGodSRC)
+- Dont teleport dead entities - [LeeGod](https://github.com/LeeGodSRC)
+- Cache creature type in entity list - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed some bugs - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.10.1 BUILD 1] - 2021-October-07
 **``(New Release)``**
 
