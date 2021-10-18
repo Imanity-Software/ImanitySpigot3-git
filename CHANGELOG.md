@@ -10,6 +10,10 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.10.1 BUILD 3] - 2021-October-19
+- Properly handling InterruptedException on server shutdown - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixes [``#38``](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/38)*
+
 ## [2021.10.1 BUILD 2] - 2021-October-16
 - **EXPERIMENTAL** Added server side hit detection - [LeeGod](https://github.com/LeeGodSRC)
 - Added option "asyncChunkLoads.chunkGenerateThreads" - [LeeGod](https://github.com/LeeGodSRC)
