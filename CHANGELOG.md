@@ -10,6 +10,10 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.10.1 BUILD 4] - 2021-October-20
+- Show 'Imanity' and some useful infomation when server stop responding - [LeeGod](https://github.com/LeeGodSRC)
+- Added book exploit patch - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.10.1 BUILD 3] - 2021-October-19
 - Properly handling InterruptedException on server shutdown - [LeeGod](https://github.com/LeeGodSRC)
   - *Fixes [``#38``](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/38)*
