@@ -10,6 +10,11 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.10.1 BUILD 5] - 2021-October-21
+- Fixed a compatbility issue with some tablist apis - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixes [``#40``](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/40)*
+- Removed unused patches - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.10.1 BUILD 4] - 2021-October-20
 - Show 'Imanity' and some useful infomation when server stop responding - [LeeGod](https://github.com/LeeGodSRC)
 - Added book exploit patch - [LeeGod](https://github.com/LeeGodSRC)
