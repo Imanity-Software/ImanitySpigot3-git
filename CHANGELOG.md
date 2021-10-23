@@ -10,6 +10,13 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.10.1 BUILD 6] - 2021-October-24
+- Added ``/pluginmanager`` command - [Whizyyy](https://github.com/Whizyyy)
+  - *The powerful tool to manage plugins in the server*
+  - *Replaces [Plugman](https://dev.bukkit.org/projects/plugman)*
+- getChunkAt() is now MT-safe if chunk is loaded - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixes multiple plugin incompatible issues*
+
 ## [2021.10.1 BUILD 5] - 2021-October-21
 - Fixed a compatbility issue with some tablist apis - [LeeGod](https://github.com/LeeGodSRC)
   - *Fixes [``#40``](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/40)*
