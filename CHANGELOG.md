@@ -10,6 +10,15 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.10.1 BUILD 7] - 2021-October-26
+- Fixed and improved ``/pluginmanager`` command - [Whizyyy](https://github.com/Whizyyy)
+- If plugin attempts to async accessing getChunkAt() search from cache first - [LeeGod](https://github.com/LeeGodSRC)
+- Chunk packet anti xray obfuscate done directly in netty encode - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixes FastAsyncWorldEdit error*
+- sendPacketNearby() lookup from world player list - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed asyncChunkGeneration error - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixes [`#46`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/46)*
+
 ## [2021.10.1 BUILD 6] - 2021-October-24
 - Added ``/pluginmanager`` command - [Whizyyy](https://github.com/Whizyyy)
   - *The powerful tool to manage plugins in the server*
