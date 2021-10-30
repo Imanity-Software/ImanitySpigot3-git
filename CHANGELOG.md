@@ -10,6 +10,11 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.10.1 BUILD 9] - 2021-October-31
+- Added Fake Environment feature and command - [Whizyyy](https://github.com/Whizyyy)
+  - *Ability to fake nether / the end environment into overworld, made some special visual for your server!*
+- Added option to limit nbt packet decode - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.10.1 BUILD 8] - 2021-October-28
 - Changed ``Chunk packet anti xray obfuscate done directly in netty encode`` patch - [LeeGod](https://github.com/LeeGodSRC)
   - *Possibly fixes [`#49`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/49)*
