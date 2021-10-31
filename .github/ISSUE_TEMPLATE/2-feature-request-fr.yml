@@ -5,9 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Merci à vous de remplir cette demande de fonctionnalité pour ImanitySpigot3! Merci d'être le plus détaillé possible ainsi, nous pourrons étudier et répondre à votre proposition plus facilement.
+        Merci à vous de remplir cette demande de fonctionnalité pour ImanitySpigot3! Veuillez être le plus détaillé possible ainsi, nous pourrons étudier et répondre à votre proposition plus facilement.
         Veuillez verifier qu'il n'y existe pas déjà une autre demande de fonctionnalité similaire. Si vous en trouvez une, répondez simplement avec vos suggestions.
-        Avant de demander une nouvelle fonctionnalité, veuillez vous assurez que vous utilisez bien la dernière version et que la fonctionnalité que vous demandez n'est pas déjà dans ImanitySpigot3.
+        Avant de demander une nouvelle fonctionnalité, veuillez vous assurez que vous utilisez bien la dernière version et que la fonctionnalité que vous demandez n'est pas déjà disponible dans ImanitySpigot3.
 
   - type: textarea
     attributes:
@@ -23,8 +23,8 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Decrivez les alternatives que vous avez considérer
-      description: Lister toutes les alternatives que vous avez essayez avant de faire votre suggestion.
+      label: Decrivez les alternatives que vous avez considérées
+      description: Listez toutes les alternatives que vous avez essayées avant de faire votre suggestion.
     validations:
       required: true
 
@@ -41,6 +41,6 @@ body:
   - type: textarea
     attributes:
       label: Autre
-      description: Ajouter tout ce qui peut-être utile pour votre suggestion (contexte, photo, vidéo...)
+      description: Ajoutez tout ce qui peut-être utile pour votre suggestion (contexte, photo, vidéo...)
     validations:
       required: false
