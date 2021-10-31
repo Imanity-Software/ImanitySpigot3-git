@@ -10,6 +10,9 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.10.1 BUILD 10] - 2021-November-1
+- Fixed Metrics data sending - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.10.1 BUILD 9] - 2021-October-31
 - Added Fake Environment feature and command - [Whizyyy](https://github.com/Whizyyy)
   - *Ability to fake nether / the end environment into overworld, made some special visual for your server!*
