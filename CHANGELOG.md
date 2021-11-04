@@ -10,6 +10,10 @@ to this project will be documented in this file.
 
 # **[Pre Release]**
 
+## [2021.10.1 BUILD 11] - 2021-November-5
+- Improved knockback control centre, player section - [LeeGod](https://github.com/LeeGodSRC)
+- Improve Metrics - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.10.1 BUILD 10] - 2021-November-1
 - Fixed Metrics data sending - [LeeGod](https://github.com/LeeGodSRC)
 
