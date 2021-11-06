@@ -6,6 +6,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.11.1 LTS BUILD 1] - 2021-November-07
+- Automatically updating rancha depend on the spigot you are updating to - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed compatibility issue to some jvm forks - [LeeGod](https://github.com/LeeGodSRC)
+- Use maven api to download maven libraries - [LeeGod](https://github.com/LeeGodSRC)
+- Added support for Source plan - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed MalformedException when yaml are different encoding - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.09.1 BUILD 2] - 2021-October-07
 - compatible to ``2021.10.1 BUILD 1`` ImanitySpigot3 - [Whizyyy](https://github.com/Whizyyy)
 - Made default message display Imanity - Software instead of [Imanity] for ``/imanity`` - [Whizyyy](https://github.com/Whizyyy)
