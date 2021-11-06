@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file.
 
 ## [2021.11.1 LTS BUILD 1] - 2021-November-07
 - Automatically updating rancha depend on the spigot you are updating to - [LeeGod](https://github.com/LeeGodSRC)
-- FIxed Java 17 compatibility - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed Java 17 compatibility - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed compatibility issue to some jvm forks - [LeeGod](https://github.com/LeeGodSRC)
 - Use maven api to download maven libraries - [LeeGod](https://github.com/LeeGodSRC)
 - Added support for Source plan - [LeeGod](https://github.com/LeeGodSRC)
