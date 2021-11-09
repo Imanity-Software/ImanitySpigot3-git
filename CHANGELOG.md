@@ -11,7 +11,8 @@ All notable changes to this project will be documented in this file.
 ## [2021.10.1 BUILD 13] - 2021-November-10
 *Stable release are coming very soon! Get ready for it ;)*
 
-- Added Projectile behaviour support for arrow & hook
+- Added Projectile behaviour support for arrow & fishing hook
+- Added support for KQueue transport (netty's native transport for mac os)
 - Knockback Editor interface will now automatically closed when you try to execute other command
 - Fixed Vanilla behaviour incorrect extra knockback calculation
 
