@@ -4,11 +4,16 @@
 - [LeeGod](https://github.com/LeeGodSRC)
 - [Whizyyy](https://github.com/Whizyyy)
 
-All notable changes 
-
-to this project will be documented in this file.
+All notable changes to this project will be documented in this file.
 
 # **[Pre Release]**
+
+## [2021.10.1 BUILD 13] - 2021-November-10
+*Stable release are coming very soon! Get ready for it ;)*
+
+- Added Projectile behaviour support for arrow & hook
+- Knockback Editor interface will now automatically closed when you try to execute other command
+- Fixed Vanilla behaviour incorrect extra knockback calculation
 
 ## [2021.10.1 BUILD 12] - 2021-November-7
 - Added more information in /imanitySpigot help command - [LeeGod](https://github.com/LeeGodSRC)
