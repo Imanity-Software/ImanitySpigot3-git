@@ -5,13 +5,27 @@ All features from ImanitySpigot3
 - Advanced Knockback System
 - Java 8 to Java 17 Support
 - https://timin.gs support, modern timing analyst interface
+- World filling processor, generate chunk within ranges with just 1 command
 - Vanish Patch
   - *Can be configured*
   - *This will hide everything from hidden player to be invisible from the receive player's vision*
   - *Including every projectile, items etc*
 - Custom block rule set, add custom type of blocks in world generation
+- Taliban Pearl, precise bounding box detection for the best experience
+  - *Example video: [HERE](https://www.youtube.com/watch?v=XX4-AzyxwTE)*
+- Ender pearl anti glitch, prevent unexpected suffocation while pearling
+- ZStd compression library support, much fast and lighter compress algorithm
 - World region modification, modifying specified region to custom biome, remove water lakes or remove rivers
 - Entity movement cache, caching the data for entity movement to re-use in other entity
+- **EXPERIMENTAL** Server side hit detection, open the possibility to have custom reach in server side and eliminate reach hack
+- Updated Log4J to 2.13.3
+- Modern versioning and auto update system
+- Integrated artemis spigot SDK, better support for [Artemis AntiCheat](https://artemis.ac/)
+- Built-in /ping command
+- Built-in /setMaxSlots command
+- Built-in /pluginManager command
+- Built-in PacketHandler, listen to packet read / write without effort
+- Built-in MovementHandler, listen to movement with better performance
 - Ability to disable different variant stone in world generation
 - Ability to enable / disable biome types in world generation
 - Ability to change sugar cane rate / min height and max height in world generation
@@ -36,10 +50,114 @@ All features from ImanitySpigot3
 - Ability to enable / disable TCP no delay
 - Ability to disable entity collision
 - Ability to enable / disable tab completing /version command
+- Ability to enable / disable player data saving
+- Ability to made ender pearl go through opened fence gate
+- Ability to made ender pearl go through tripwire
+- Ability to disable ender pearl from spawning endermite
+- Ability to choose region file compression type
+- Ability to pick Gson version (legacy: 2.2.4, modern: 2.8.7)
+- Ability to pick mysql connector drive version (legacy: 5.1.14, modern: 8.0.25)
+- Ability to pick netty version (legacy: 4.0.23.Final, modern: 4.1.60.Final)
+- Added World.setSpawn(Location location)
+- Added Chunk.getBlock(Location location)
+- Added Player.imanity().setCanPickupExperienceOrbs(boolean bol)
+- Added PlayerPickupArrowEvent
+- Added ability to disable drops in BlockBreakEvent
+- Added PotionEffectEvents, listen to potion effect add, extend, expire, or removal for no effort
+- Added PrepareAnvilEvent
+- Added Mob interface
+- Added Pathfinder APIs
+- Added Mob Goal APIs
+- Added Void world type
+- Added Fake Environment command and API
+
+## Premium Additional Features
+- Lag spike logger / detector, altert lag spike, tick time, timestamp, and timing entries when lag spike happens
+- Chunk Analyzer, profile chunks consuming server performance with detailed information
+- Ability to customize server mod name
+- Ability to customize /version messages
+- Ability to customize /tps messages
+- Ability to customize /ping messages
+- Ability to customize /plugins messages
+- Ability to customize /mobAI messages
+- Ability to customize no permission messages
+- Ability to customize pearl refund messages
 
 ## Improvements
-- Asynchronous Chunk Generation
+- Asynchronous Chunk IO and Generation
+- Asynchronous Entity AI Path Searching
+- Asynchronous Lighting Updates
+- Asynchronous Saving for persistent collections
+- Asynchronous Chunk loading when player join
+- Improved bukkit async scheduler
+- Improved BlockState array map
+- Optimized and different variants getCubes() for better performance
+- Optimized random block ticking operation
+- Optimized NibbleArray
+- Optimized Next Tick List
+- ASM code generation for event listener instead of reflection calling listener method
+- TNT entity merge system, reduce the load while massive amount of tnt powered up
+- Modern hopper algorithm, reduce itemstack cloning
+- Caching explosion block data, reduce block lookup
+- Optimized BlockPosition cardinal offsets
+- Optimized Portal travel agent lookup algorithm
+- Libraries are externalized, each library will be download indviually on first launch
+- Parallel entity tracking, send entity data to players using multiple threads
+- Asynchronous player data loading and saving, prevent lag for player data IO operation
 - Caching entity type count in world to reduce additional lookup
 - Redesigned random chunk ticking algorithm
+- Built-in Panda redstone algorithm, heavily optimised vanilla redstone
+- Light random algorithm, reduce load from java standard random
+- Reduced head rotation packet spam
+- Reduced Chunk Cache searching
+- Reduced double lookup chunks
+- Check lava only once per tick
+- Cache block lookup data
+- Send velocity packet immediately when hit occurs
+- Don't check bounding box in getCubes() if it's air
+- Don't teleport dead entities
+- Using HashMap on captured tile entities to improve lookup performance
+- Using HashMap for captured block states to improve lookup performance
+- Using ConcurrentLinkedQueue for chunk unload packet list
+- Using LongOpenHashSet for unloadQueue
+- Using ConcurrentLinkedQueue for server command list
+- Using shared random for entities
+- Safe shutdown in shutdown thread
+- Don't try to load / generate chunk for map item renderer
+- Clear loaded chunks when Bukkit.unloadWorld() to reduce memory leak caused by plugins
+- Queued auto save jobs to reduce load for auto saving worlds
+- Implemented PlayerAreaMap to reduce load of global player list
+- Prevent ray trace from loading chunks
+- Prevent path finding from loading chunks
+- Prevent unnecessary chunk load on PlayerInteractEvent calling
+- Store reference to current chunk for entity to reduce chunk lookup
+- Auto Saving and Chunk Unload Optimization
+- Improved Physics StackOverflow silence
+- Allow Oversized Chunks
+  - *Fixed oversized chunk duplication glitch*
+- Consolidate flush calls for entity tracker packets
+- Prevent fire spreading load / generate chunks
+- Fixed Tile entity unload lag spike
+- Only process BlockPhysicsEvent if plugin is listening
+- Added Slack Activity Accountant
+- Improved algorithm for chunk tick list
+- Cache creature type in entity list
+- Avoid timing usage in xray while async
+- sendPacketNearby lookup player list from world
+
+## Source Code Improvements
+- Repackaged NMS Classes, no more messy nms classes in a single package
 
 ## Bug fixes
+- Customize NBT Packet limit amount, prevent large nbt data crasher
+- Book exploit patcher, prevent server from book crasher
+- Fixed broken asynchronous usage by mojang
+- Fixed occasional client side unloading chunk at 0, 0
+- Fixed Login Listener NullPointerException from crasher
+- Fixed memory leak from EnchantmentManager
+- Fixed memory leak from WorldMap
+- Fixed memory leak from entity AI goal
+- Fixed inconsistent usage on view distance
+- Fixed Cancelling BlockPlaceEvent triggering physics
+- Fixed broken plugin nms compatibility in ServerConnection
+- Cache authenticator threads
