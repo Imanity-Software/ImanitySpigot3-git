@@ -6,6 +6,28 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.11.1 LTS BUILD 1] - 2021-November-14
+
+### Added
+- Added more precise error display when creating knockack behaviour/modifier - [LeeGod](https://github.com/LeeGodSRC)
+- Supported legacy netty (4.0.23.Final) - [LeeGod](https://github.com/LeeGodSRC)
+  - *Requires Rancha 2021.11.1 LTS BUILD 2*
+  - *Fixed [`#51`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/51)*
+
+### Changes
+- Blocking main for block flowing and applyPhysics - [LeeGod](https://github.com/LeeGodSRC)
+  - *possibly fixes some weird behaviour in terms of chunk or physics*
+- AsyncTabCompleteEvent will now be called from player's tab complete action - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed [`#55`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/55)*
+
+### Bug Fixes
+- Fixed Knockback editor layout for default minecraft font - [LeeGod](https://github.com/LeeGodSRC)
+![old_new](https://user-images.githubusercontent.com/36093806/141652678-bdc7a6a2-590e-4aec-83bf-b280743fe001.png)
+- Fixed protocollib patch - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed Generate ASM Code for EventExecutor patch - [Whizyyy](https://github.com/Whizyyy)
+- Fixed /imanity fillWorld command - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed ChunkAnalyzer start / end event calling - [LeeGod](https://github.com/LeeGodSRC)
+
 # **[Pre Release]**
 
 ## [2021.10.1 BUILD 14] - 2021-November-11
