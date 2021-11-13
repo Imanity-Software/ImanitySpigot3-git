@@ -6,6 +6,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.11.1 LTS BUILD 2] - 2021-November-14
+
+### Changes
+- Added Support for legacy netty - [LeeGod](https://github.com/LeeGodSRC)
+  - *Requires ImanitySpigot3 2021.11.1 LTS BUILD 1*
+- Added Hash check when launching spigot failed or updating spigot - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixes server downtime when update failed*
+- Generates netty version properties file to ensure plugin compatibilitv - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.11.1 LTS BUILD 1] - 2021-November-07
 - Automatically updating rancha depend on the spigot you are updating to - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed Java 17 compatibility - [LeeGod](https://github.com/LeeGodSRC)
