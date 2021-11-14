@@ -8,8 +8,6 @@ All notable changes to this project will be documented in this file.
 
 ## [2021.11.1 LTS BUILD 2] - 2021-November-14
 
-**⚠️ Major bug found. update temporary got taken down, a hotfix will come soon...**
-
 ### Changes
 - Added Support for legacy netty - [LeeGod](https://github.com/LeeGodSRC)
   - *Requires ImanitySpigot3 2021.11.1 LTS BUILD 1*
