@@ -6,6 +6,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.11.1 LTS BUILD 2] - 2021.November-18
+
+### Bug Fixes
+- Fixed incorrect percentage calculation for cave generate rate - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.11.1 LTS BUILD 1] - 2021-November-14
 
 ### Added
