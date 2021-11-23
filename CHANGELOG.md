@@ -6,7 +6,15 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2021.11.1 LTS BUILD 2] - 2021.November-18
+## [2021.11.1 LTS BUILD 3] - 2021-November-24
+- Added PlayerOnGroundEvent - [Whizyyy](https://github.com/Whizyyy)
+- Changed header comments of config files - [Whizyyy](https://github.com/Whizyyy)
+- Improved prioritized task queue for chunk loaders - [LeeGod](https://github.com/LeeGodSRC)
+- Don't lock for blocking thread in async chunk whenever unnecessary - [LeeGod](https://github.com/LeeGodSRC)
+  - *a bug fix attempt target towards [`#60`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/60)*
+- Always update lighting on first tick ignoring randomTickUpdate options from spigot - [LeeGod](https://github.com/LeeGodSRC)
+
+## [2021.11.1 LTS BUILD 2] - 2021-November-18
 
 ### Bug Fixes
 - Fixed incorrect percentage calculation for cave generate rate - [LeeGod](https://github.com/LeeGodSRC)
