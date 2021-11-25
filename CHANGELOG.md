@@ -6,13 +6,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.11.1 LTS BUILD 4] - 2021-November-26
+
+### Added
+- Added AsyncHeartbeat addition support (new addition coming soon) - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.11.1 LTS BUILD 3] - 2021-November-24
+
+### Added
 - Added PlayerOnGroundEvent - [Whizyyy](https://github.com/Whizyyy)
+
+### Changes
 - Changed header comments of config files - [Whizyyy](https://github.com/Whizyyy)
 - Improved prioritized task queue for chunk loaders - [LeeGod](https://github.com/LeeGodSRC)
+- Always update lighting on first tick ignoring randomTickUpdate options from spigot - [LeeGod](https://github.com/LeeGodSRC)
+
+### Bug Fixes
 - Don't lock for blocking thread in async chunk whenever unnecessary - [LeeGod](https://github.com/LeeGodSRC)
   - *a bug fix attempt target towards [`#60`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/60)*
-- Always update lighting on first tick ignoring randomTickUpdate options from spigot - [LeeGod](https://github.com/LeeGodSRC)
 
 ## [2021.11.1 LTS BUILD 2] - 2021-November-18
 
