@@ -65,6 +65,7 @@ All features from ImanitySpigot3
 - Added ability to disable drops in BlockBreakEvent
 - Added PotionEffectEvents, listen to potion effect add, extend, expire, or removal for no effort
 - Added PrepareAnvilEvent
+- Added PlayerOnGroundEvent
 - Added Mob interface
 - Added Pathfinder APIs
 - Added Mob Goal APIs

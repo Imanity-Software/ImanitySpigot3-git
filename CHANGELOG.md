@@ -6,6 +6,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.11.1 LTS BUILD 5] - 2021-November-28
+
+### Added
+- ``HumanEntity#setBlocking(boolean bloocking)`` method in API, allow to force a HumanEntity to block the sword or not - [Whizyyy](https://github.com/Whizyyy)
+- TabCompletion for FakeEnvironment command - [Whizyyy](https://github.com/Whizyyy)
+- Chunk list & tile entity list caching to improve memory allocation - [LeeGod](https://github.com/LeeGodSRC)
+
+### Changes
+- Improved TabCompletion for PluginManager command - [Whizyyy](https://github.com/Whizyyy)
+
+### Bug Fixes
+- Chunks inaccessible/broken during their unloading and needed to be used at the same time - [LeeGod](https://github.com/LeeGodSRC)
+  - This fix also corrected a bug with the FakeEnvironment command
+
 ## [2021.11.1 LTS BUILD 4] - 2021-November-26
 
 ### Added
