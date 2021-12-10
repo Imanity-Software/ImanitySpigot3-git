@@ -6,6 +6,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.11.1 LTS BUILD 6] - 2021-December-10
+
+### Urgent FIX
+- Disable the possibility to send RCE message including inbounds and outbounds - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.11.1 LTS BUILD 5] - 2021-November-28
 
 ### Added
