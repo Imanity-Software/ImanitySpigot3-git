@@ -18,7 +18,7 @@ All features from ImanitySpigot3
 - World region modification, modifying specified region to custom biome, remove water lakes or remove rivers
 - Entity movement cache, caching the data for entity movement to re-use in other entity
 - **EXPERIMENTAL** Server side hit detection, open the possibility to have custom reach in server side and eliminate reach hack
-- Updated Log4J to 2.15.0 (MAJOR EXPLOIT FIX)
+- Updated Log4J to `2.15.0`
 - Modern versioning and auto update system
 - Integrated artemis spigot SDK, better support for [Artemis AntiCheat](https://artemis.ac/)
 - Built-in /ping command
@@ -162,3 +162,4 @@ All features from ImanitySpigot3
 - Fixed Cancelling BlockPlaceEvent triggering physics
 - Fixed broken plugin nms compatibility in ServerConnection
 - Cache authenticator threads
+- Fixed RCE exploit
