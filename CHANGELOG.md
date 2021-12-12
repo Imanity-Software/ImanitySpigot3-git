@@ -6,6 +6,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.12.1 BUILD 1] - 2021-December-13
+**``(New Release)``**
+
+### Added
+- FastAsyncLight addition - [LeeGod](https://github.com/LeeGodSRC)
+- Added isIntelligence & setIntelligence method in Mob interface - [Whizyyy](https://github.com/Whizyyy)
+
+### Changes
+- Optimize VarInts - [LeeGod](https://github.com/LeeGodSRC)
+- ASM generated packet constructors - [LeeGod](https://github.com/LeeGodSRC)
+- Made entityList iterator safe while accepting add or removal - [LeeGod](https://github.com/LeeGodSRC)
+- Player and ItemFrame always run in main-thread for Parallel Entity Tracking - [LeeGod](https://github.com/LeeGodSRC)
+- Non-blocking in-progress chunk saving - [LeeGod](https://github.com/LeeGodSRC)
+
+### Code Quality
+- Caching relative chunks - [LeeGod](https://github.com/LeeGodSRC)
+- Force async catching for unloadQueue anywhere - [LeeGod](https://github.com/LeeGodSRC)
+- Added different variants for chunk getter - [LeeGod](https://github.com/LeeGodSRC)
+
+### Bug Fixes
+- Free from using item while sprint starts (fixes double eat) - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed PlayerChunkMap reflection error for BKCommonLib - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed NPE for arrow knockback - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed [`#72`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/72) - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.11.1 LTS BUILD 6] - 2021-December-10
 
 ### Urgent FIX
