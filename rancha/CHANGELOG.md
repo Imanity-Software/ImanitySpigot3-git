@@ -6,6 +6,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.11.1 LTS BUILD 4] - 2021-December-16
+- Made Jna runtime library download - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2021.11.1 LTS BUILD 3] - 2021-December-10
 - Bumped Log4j versions to 2.15.0 - [LeeGod](https://github.com/LeeGodSRC)
   - *Major exploit fix: https://www.lunasec.io/docs/blog/log4j-zero-day/*
