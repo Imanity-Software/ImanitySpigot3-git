@@ -6,6 +6,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2021.12.1 BUILD 2] - 2021-December-24
+- Added upTo256CharsInChat option - [Whizyyy](https://github.com/Whizyyy)
+  - Fixes [`#74`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/74)
+- Added Projectile Custom Through Options - [Whizyyy](https://github.com/Whizyyy)
+  - Fixes [`#66`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/66)
+- Added eatAndDropFix Option - [Whizyyy](https://github.com/Whizyyy)
+- unloadQueue iterator safe - [LeeGod](https://github.com/LeeGodSRC)
+  - Fixes [`#70`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/70)
+- Changed tab completion for PLManager on load arg - [Whizyyy](https://github.com/Whizyyy)
+- Fixed comments mistake in EnderPearl configuration section - [Whizyyy](https://github.com/Whizyyy)
+
 ## [2021.12.1 BUILD 1] - 2021-December-13
 **``(New Release)``**
 
