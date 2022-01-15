@@ -6,6 +6,30 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.1.1 BUILD 1] - 2022-Januray-15
+**``(New Release)``**
+
+### Added
+- Added Packet processing while sleeping - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed [`#76`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/76)*.
+- Added detailed watchdog report information - [LeeGod](https://github.com/LeeGodSRC)
+- Added limit login processing per tick - [LeeGod](https://github.com/LeeGodSRC)
+
+### Changes
+- Attempt to shutdown scheduler on unload world - [LeeGod](https://github.com/LeeGodSRC)
+- Let timings data use Int2ObjectOpenHashMap - [LeeGod](https://github.com/LeeGodSRC)
+- Bring old tile entity ticking system back - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed [`#81`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/81)*.
+
+### Removed
+- Removed `Free from using item while sprint start` patch - [LeeGod](https://github.com/LeeGodSRC)
+
+### Fixed
+- Fixed portal not working when cancelling the PlayerPortalEvent - [Whizyyy](https://github.com/Whizyyy)
+  - *Fixed [`#83`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/83)*.
+- Fixed player disconnect not able to log on back in certain situation - [Whizyyy](https://github.com/Whizyyy)
+  - *Fixed [`#75`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/75)*.
+
 ## [2021.12.1 BUILD 2] - 2021-December-24
 - Added upTo256CharsInChat option - [Whizyyy](https://github.com/Whizyyy)
   - Fixes [`#74`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/74)
