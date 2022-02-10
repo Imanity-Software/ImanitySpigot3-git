@@ -6,6 +6,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.1.1 BUILD 2] - 2022-February-11
+- Added option `forceDurabilityUpdating`
+- Improved how durabilityMultiplier works 
+  - *Made durability item update only did on specific slot rather than entire inventory for specific situation like armor damage and such to prevent updating inventory when player eating food or drinking potion.*
+  - *Fixed [`#86`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/86)*
+
 ## [2022.1.1 BUILD 1] - 2022-Januray-15
 **``(New Release)``**
 
