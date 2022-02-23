@@ -6,6 +6,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.1.1 BUILD 3] - 2022-February-24
+- Added 2022 copyright in config files - [Whizyyy](https://github.com/Whizyyy)
+- Fixed durability changer option - [Whizyyy](https://github.com/Whizyyy)
+  - *Fixed [`#93`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/93)*
+- Don't let packet processing error crash the server - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2022.1.1 BUILD 2] - 2022-February-11
 - Added option `forceDurabilityUpdating`
 - Improved how durabilityMultiplier works 
