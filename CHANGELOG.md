@@ -6,6 +6,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.3.1 BUILD 1] - 2022-March-22
+**``(New Release)``**
+
+### Added
+- Modern Tick Loop - [LeeGod](https://github.com/LeeGodSRC)
+
+### Fixed
+- Fixed instant respawn dont clear fire tick in lava - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed durability update when other container open - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2022.1.1 BUILD 3] - 2022-February-24
 - Added 2022 copyright in config files - [Whizyyy](https://github.com/Whizyyy)
 - Fixed durability changer option - [Whizyyy](https://github.com/Whizyyy)
