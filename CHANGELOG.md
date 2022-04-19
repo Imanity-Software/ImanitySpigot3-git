@@ -6,6 +6,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.3.1 BUILD 2] - 2022-April-19
+- Added option `zeroHeightCarpets` to imanity config
+- Added option `arrowTrajectoryRandomness` to imanity world config
+- Do not allow logins while the server is shutting down
+- Ensure chunks are always loaded on hard position sets
+- Dont broadcast head rotation packet
+- Fixed block break desync
+- Fixed invisibility for non-parallel tracker
+
 ## [2022.3.1 BUILD 1] - 2022-March-22
 **``(New Release)``**
 
