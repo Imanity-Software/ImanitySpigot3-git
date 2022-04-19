@@ -14,6 +14,8 @@ All notable changes to this project will be documented in this file.
 - Dont broadcast head rotation packet
 - Fixed block break desync
 - Fixed invisibility for non-parallel tracker
+- Reverted useless explode optimization
+  - *Fixed [`#100`](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/100)*
 
 ## [2022.3.1 BUILD 1] - 2022-March-22
 **``(New Release)``**
