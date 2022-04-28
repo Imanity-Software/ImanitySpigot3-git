@@ -26,6 +26,8 @@ All features from ImanitySpigot3
 - Built-in /pluginManager command
 - Built-in PacketHandler, listen to packet read / write without effort
 - Built-in MovementHandler, listen to movement with better performance
+- Ability to enable zero height carpet for 1.7 users
+- Ability to set arrow trajectory randomness
 - Ability to disable different variant stone in world generation
 - Ability to enable / disable biome types in world generation
 - Ability to change sugar cane rate / min height and max height in world generation
@@ -85,6 +87,7 @@ All features from ImanitySpigot3
 - Ability to customize pearl refund messages
 
 ## Improvements
+- Modern Tick Loop
 - Asynchronous Chunk IO and Generation
 - Asynchronous Entity AI Path Searching
 - Asynchronous Lighting Updates
@@ -92,12 +95,14 @@ All features from ImanitySpigot3
 - Asynchronous Chunk loading when player join
 - Improved bukkit async scheduler
 - Improved BlockState array map
+- Do not allow logins while the server is shutting down
 - Optimized and different variants getCubes() for better performance
 - Optimized random block ticking operation
 - Optimized NibbleArray
 - Optimized Next Tick List
 - ASM code generation for event listener instead of reflection calling listener method
 - TNT entity merge system, reduce the load while massive amount of tnt powered up
+- Ensure chunks are always loaded on hard position sets
 - Modern hopper algorithm, reduce itemstack cloning
 - Caching explosion block data, reduce block lookup
 - Optimized BlockPosition cardinal offsets
@@ -150,6 +155,7 @@ All features from ImanitySpigot3
 - Repackaged NMS Classes, no more messy nms classes in a single package
 
 ## Bug fixes
+- Fixed block break desync
 - Customize NBT Packet limit amount, prevent large nbt data crasher
 - Book exploit patcher, prevent server from book crasher
 - Fixed broken asynchronous usage by mojang
