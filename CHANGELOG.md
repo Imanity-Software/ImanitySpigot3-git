@@ -6,6 +6,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.5.1 LTS BUILD 1] - 2022-May-3
+**``(New Release)``**
+
+### Fixed
+- Fixed some issues for AsyncFastLight addition - [LeeGod](https://github.com/LeeGodSRC)
+  - *If you purchased AsyncFastLight addition, please update to this version or above for the best experience.*
+
 ## [2022.3.1 BUILD 2] - 2022-April-19
 - Added option `zeroHeightCarpets` to imanity config
 - Added option `arrowTrajectoryRandomness` to imanity world config
