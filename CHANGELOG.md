@@ -6,6 +6,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.5.2 LTS BUILD 3] - 2022-May-18
+- Fixed IncompatibleClassChangeError on modern java versions (java 12+) - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2022.5.2 LTS BUILD 2] - 2022-May-4
 - Fixed java 11+ compatibility - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed plugin compatibility for SWM and lazarus when AsyncFastLiht enabled - [LeeGod](https://github.com/LeeGodSRC)
