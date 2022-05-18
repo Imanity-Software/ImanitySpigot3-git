@@ -6,6 +6,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.5.1 BUILD 1] - 2022-May-18
+- Added license key startup flag support `-Dimanity.license={license}` - [LeeGod](https://github.com/LeeGodSRC)
+- Bumped fastutil versions to 8.5.6 - [LeeGod](https://github.com/LeeGodSRC)
+- Bumped netty versions to 4.1.73.Final - [LeeGod](https://github.com/LeeGodSRC)
+- Updated 2k22 copyright in config files - [Whizyyy](https://github.com/Whizyyy)
+
 ## [2021.11.1 LTS BUILD 4] - 2021-December-16
 - Made Jna runtime library download - [LeeGod](https://github.com/LeeGodSRC)
 
