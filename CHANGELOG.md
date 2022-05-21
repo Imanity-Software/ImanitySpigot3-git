@@ -6,10 +6,49 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2022.5.2 LTS BUILD 3] - 2022-May-18
+## [2022.5.3 BUILD 1] - 2022-May-21
+**``(New Release)``**
+
+**⚠️ Potential API & Config Changes, Please be aware before updating. ⚠️**
+
+**⚠️ This is an extremely experimental version, Please use it on your own risk. ⚠️**
+
+### Added
+- **Migrated ImanitySpigot3's knockback system into ImanityKnockback** - [LeeGod](https://github.com/LeeGodSRC)
+- Added V2 editor and file format support - [LeeGod](https://github.com/LeeGodSRC)
+  - *This is very meanful for those server who still rely on v2 knockback*
+  - *It now supports you directly dragging your knockback profile into imanity/knockback folder and reload*
+  - *And edit it the same way as the old one!*
+- Use pastebin for get knockback config button - [LeeGod](https://github.com/LeeGodSRC)
+
+https://user-images.githubusercontent.com/36093806/169641719-2062ada0-65c2-49e0-aa5e-0a72895a2e1e.mp4
+
+### Changes
+- **Knockback related api has been moved to package** ``dev.imanity.knockback.api`` - [LeeGod](https://github.com/LeeGodSRC)
+  - *Check Imanity docs for more detailed changes on API.*
+  - *This change is due to our future plan for knockback system.*
+- Renamed Velocities behaviour to HitBase - [LeeGod](https://github.com/LeeGodSRC)
+- Shift all knockback related config option into `imanity/knockback.yml` - [LeeGod](https://github.com/LeeGodSRC)
+  - *No auto config migration, please be aware.*
+
+### Fixed
+- Fixed wrong knockback calculation on all behaviour - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed V3 editor glitches when multiple people have it opening - [LeeGod](https://github.com/LeeGodSRC)
+
+### Removed
+- Removed Classic Knockback Importer - [LeeGod](https://github.com/LeeGodSRC)
+  - *Replaced by direct file format support*
+- Removed Multiple global knockback support - [LeeGod](https://github.com/LeeGodSRC)
+  - *Replaced by single global profile.*
+  - *Pretty much no server uses more than one profile by default and applies randomly.*
+  - *Have it support multiple random knockback is basically useless.*
+- Removed Per world knockback support - [LeeGod](https://github.com/LeeGodSRC)
+  - *Will be replaced by plugin soon.*
+
+## [2022.5.1 LTS BUILD 3] - 2022-May-18
 - Fixed IncompatibleClassChangeError on modern java versions (java 12+) - [LeeGod](https://github.com/LeeGodSRC)
 
-## [2022.5.2 LTS BUILD 2] - 2022-May-4
+## [2022.5.1 LTS BUILD 2] - 2022-May-4
 - Fixed java 11+ compatibility - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed plugin compatibility for SWM and lazarus when AsyncFastLiht enabled - [LeeGod](https://github.com/LeeGodSRC)
 
