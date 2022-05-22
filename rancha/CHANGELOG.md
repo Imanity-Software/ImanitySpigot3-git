@@ -6,6 +6,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.5.1 BUILD 2] - 2022-May-22
+- Downgraded netty versions to 4.1.60.Final - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed [#117](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/117)* 
+
 ## [2022.5.1 BUILD 1] - 2022-May-18
 - Added license key startup flag support `-Dimanity.license={license}` - [LeeGod](https://github.com/LeeGodSRC)
 - Bumped fastutil versions to 8.5.6 - [LeeGod](https://github.com/LeeGodSRC)
