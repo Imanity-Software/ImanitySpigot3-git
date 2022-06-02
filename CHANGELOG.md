@@ -6,6 +6,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.5.3 BUILD 2] - 2022-June-2
+- Fixed AsyncFastLight ArrayIndexOutOfBoundsException - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed [#113](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/113)*
+- Fixed Knockback Enchantment level get shifted by 1 - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed [#120](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/120)*
+  - *Fixed [#110](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/110)*
+- Fixed TNT Merging - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed [#109](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/109)*
+
 ## [2022.5.3 BUILD 1] - 2022-May-21
 **``(New Release)``**
 
