@@ -45,6 +45,9 @@ https://user-images.githubusercontent.com/36093806/169641719-2062ada0-65c2-49e0-
 - Removed Per world knockback support - [LeeGod](https://github.com/LeeGodSRC)
   - *Will be replaced by plugin soon.*
 
+## [2022.5.1 LTS BUILD 4] - 2022-June-1
+- Fixed AsyncFastLight ArrayIndexOutOfBoundsException - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2022.5.1 LTS BUILD 3] - 2022-May-18
 - Fixed IncompatibleClassChangeError on modern java versions (java 12+) - [LeeGod](https://github.com/LeeGodSRC)
 
