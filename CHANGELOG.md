@@ -6,6 +6,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.5.3 BUILD 3] - 2022-June-3
+- Fixed PacketPlayInBlockPlace decode error - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed [#126](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/126)*
+  - *Fixed [#125](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/125)*
+
 ## [2022.5.3 BUILD 2] - 2022-June-2
 - Fixed AsyncFastLight ArrayIndexOutOfBoundsException - [LeeGod](https://github.com/LeeGodSRC)
   - *Fixed [#113](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/113)*
