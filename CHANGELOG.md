@@ -19,6 +19,8 @@ All notable changes to this project will be documented in this file.
   - *Fixed [#110](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/110)*
 - Fixed TNT Merging - [LeeGod](https://github.com/LeeGodSRC)
   - *Fixed [#109](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/109)*
+- Fixed /ping permission command - [Whizyyy](https://github.com/Whizyyy)
+- Added dontReadItemNBTDataFromPackets option - [LeeGod](https://github.com/LeeGodSRC)
 
 ## [2022.5.3 BUILD 1] - 2022-May-21
 **``(New Release)``**
