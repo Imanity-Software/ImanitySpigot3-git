@@ -6,6 +6,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.5.3 BUILD 4] - 2022-July-21
+- Added LagSpikeTriggerEvent - [Whizyyy](https://github.com/Whizyyy)
+  - *Solved [#122](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/122)*
+- Added auto download spark profiler - [LeeGod](https://github.com/LeeGodSRC)
+- Improved chunk cache and ensure main in getOrCreateChunk - [LeeGod](https://github.com/LeeGodSRC)
+  - *Maybe fixes [#121](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/121)*
+- Allow NibbleArray to be 0 length on load - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed timing export error in broken host - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed chunk scheduler NPE - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed issue when Citizens NPC were throwing potion with vanishPatch option enabled - [Whizyyy](https://github.com/Whizyyy)
+
 ## [2022.5.3 BUILD 3] - 2022-June-3
 - Fixed PacketPlayInBlockPlace decode error - [LeeGod](https://github.com/LeeGodSRC)
   - *Fixed [#126](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/126)*
