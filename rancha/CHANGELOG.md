@@ -6,6 +6,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.7.1 BUILD 1] - 2022-July-1
+- Upgraded JavaAssist to 3.29.0-GA - [LeeGod](https://github.com/LeeGodSRC)
+- Upgraded JNA to 5.11.0 - [LeeGod](https://github.com/LeeGodSRC)
+- Upgraded OSHI to 6.1.6 - [LeeGod](https://github.com/LeeGodSRC)
+- Upgraded Log4J2 to 2.18.0 - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2022.5.1 BUILD 2] - 2022-May-22
 - Downgraded netty versions to 4.1.60.Final - [LeeGod](https://github.com/LeeGodSRC)
   - *Fixed [#117](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/117)* 
