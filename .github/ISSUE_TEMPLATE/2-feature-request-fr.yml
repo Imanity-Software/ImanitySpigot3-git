@@ -17,13 +17,13 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Decrivez la solution que vous aimeriez
+      label: Décrivez la solution que vous aimeriez
       description: Une description rapide et simple de ce que vous souhaitez.
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Decrivez les alternatives que vous avez considérées
+      label: Décrivez les alternatives que vous avez considérées
       description: Listez toutes les alternatives que vous avez essayées avant de faire votre suggestion.
     validations:
       required: true

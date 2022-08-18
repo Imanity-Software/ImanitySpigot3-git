@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Avant de signalier un crash ici, veuillez vous assurez que vous utilisez bien la dernière version d'ImanitySpigot3.
+        Avant de signaler un crash ici, veuillez vous assurez que vous utilisez bien la dernière version d'ImanitySpigot3.
 
   - type: textarea
     attributes:
@@ -46,7 +46,7 @@ body:
       label: Accords
       description: Veuillez accepter ce qui suit.
       options:
-        - label: J'utilise la dernière version d'ImanitySpigot3 disponible depuis le salon #client-info sur notre discord.
+        - label: J'utilise la dernière version d'ImanitySpigot3 disponible depuis le salon #imanityspigot sur notre discord.
           required: true
         - label: J'ai fais des recherches afin d'être certains qu'il n'y est pas déjà une "issue" ouverte à ce sujet.
           required: true

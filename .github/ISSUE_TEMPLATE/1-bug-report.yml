@@ -1,5 +1,5 @@
 name: (English) Behavior Bug or Plugin Incompatibility
-description: Report issues with plugin incompatbility or other behavior related issues.
+description: Report issues with plugin incompatibility or other behavior related issues.
 body:
   - type: markdown
     attributes:
@@ -44,11 +44,11 @@ body:
       label: Agreements
       description: Please agree to the following.
       options:
-        - label: I am running the latest version of ImanitySpigot3 available from #client-info channel in our discord.
+        - label: I am running the latest version of ImanitySpigot3 available from #imanityspigot channel in our discord.
           required: true
         - label: I have searched for and ensured there isn't already an open issue regarding this.
           required: true
-        - label: I have compared the issue inbetween TacoSpigot 1.8.8 and ImanitySpigot3 And only ImanitySpigot3 occured this issue.
+        - label: I have compared the issue between TacoSpigot 1.8.8 and ImanitySpigot3 And only ImanitySpigot3 occurred this issue.
           required: true
 
   - type: textarea

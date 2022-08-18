@@ -27,7 +27,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Etapes pour réproduire le problème (si vous le savez)
+      label: Etapes pour reproduire le problème (si vous le savez)
       description: Cela peut inclure un "schematic" (construction), une vidéo ou des instructions détaillées afin de nous aider à reproduire le problème. Tout ce qui peut aider!
     validations:
       required: false
@@ -45,7 +45,7 @@ body:
       label: Accords
       description: Veuillez accepter ce qui suit.
       options:
-        - label: J'utilise la dernière version d'ImanitySpigot3 disponible depuis le salon #client-info sur notre discord.
+        - label: J'utilise la dernière version d'ImanitySpigot3 disponible depuis le salon #imanityspigot sur notre discord.
           required: true
         - label: J'ai fais des recherches afin d'être certains qu'il n'y est pas déjà une "issue" ouverte à ce sujet.
           required: true
