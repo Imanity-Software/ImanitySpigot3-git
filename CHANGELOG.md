@@ -6,6 +6,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.8.1 BUILD 1] - 2022-August-24
+**``(New Release)``**
+
+### Added
+- Added option `fishingHookTrajectoryRandomness` - [LeeGod](https://github.com/LeeGodSRC)
+- Added isEssentialRedstoneWaterProof option - [Whizyyy](https://github.com/Whizyyy)
+
+### Changed
+- Updated ImanityKnockback - [LeeGod](https://github.com/LeeGodSRC)
+- Allow scanPlayers(list) to be used when parallel - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#149](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/149)*
+
+### Fixed
+- Fixed PandaWire's redstone logic, some advanced tnt cannons are now working - [Whizyyy](https://github.com/Whizyyy)
+- Fixed merge cannon optimization + improved explosions - [Whizyyy](https://github.com/Whizyyy)
+
 ## [2022.5.3 BUILD 4] - 2022-July-21
 - Added LagSpikeTriggerEvent - [Whizyyy](https://github.com/Whizyyy)
   - *Solved [#122](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/122)*
