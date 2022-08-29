@@ -6,6 +6,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.8.1 BUILD 2] - 2022-August-30
+- Added world option `enderPearlTrajectoryRandomness` - [LeeGod](https://github.com/LeeGodSRC)
+- Added world option `potionTrajectoryRandomness` - [LeeGod](https://github.com/LeeGodSRC)
+- Added world option `snowBallTrajectoryRandomness` - [LeeGod](https://github.com/LeeGodSRC)
+- Added world option `eggTrajectoryRandomness` - [LeeGod](https://github.com/LeeGodSRC)
+- Prevent server crashing from invalid movement packet - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#153](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/153)*
+- Fixed instant respawn not working properly with setHealth(0 - [Whizyyy](https://github.com/Whizyyy)
+  - *Solved [#144](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/144)*
+- Fixed some errors on parallel entity tracking - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#148](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/148)*
+
 ## [2022.8.1 BUILD 1] - 2022-August-24
 **``(New Release)``**
 
