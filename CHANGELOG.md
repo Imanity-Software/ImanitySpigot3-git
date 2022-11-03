@@ -2,9 +2,36 @@
 
 ### Contributors:
 - [LeeGod](https://github.com/LeeGodSRC)
-- [Whizyyy](https://github.com/Whizyyy)
+ - [Whizyyy](https://github.com/Whizyyy)
 
 All notable changes to this project will be documented in this file.
+
+## [2022.11.1 LTS BUILD 1] - 2022-November-3
+
+### Added
+- Implemented MobStacker - [Whizyyy](https://github.com/Whizyyy)
+
+```yaml
+# This section allow you to configure the MobStacker settings
+# MobStacker is a feature that allow you to stack mobs together
+# So that you can have less entities in the world and then better performance
+# This is very useful for servers such as SkyBlock or Faction that run huge mob farms
+mobStacker:
+  enabled: true
+  onlyStackFromSpawner: false
+  stackRadius: 5.0
+  maxStackAmount: 50
+  ticksToStack: 100
+  ignoreEntityType:
+  - HORSE
+  - VILLAGER
+  - WOLF
+```
+![image](https://user-images.githubusercontent.com/36093806/199691142-35591000-3a54-4838-b950-8c844e64ec68.png)
+
+
+### Bug Fixes
+- Fixed setFlying() wrong variable used - [LeeGod](https://github.com/LeeGodSRC)
 
 ## [2022.8.1 BUILD 2] - 2022-August-30
 - Added world option `enderPearlTrajectoryRandomness` - [LeeGod](https://github.com/LeeGodSRC)
