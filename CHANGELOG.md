@@ -7,6 +7,7 @@
 All notable changes to this project will be documented in this file.
 
 ## [2022.11.1 LTS BUILD 1] - 2022-November-3
+**``(New Release)``**
 
 ### Added
 - Implemented MobStacker - [Whizyyy](https://github.com/Whizyyy)
