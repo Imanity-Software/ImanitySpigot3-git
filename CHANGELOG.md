@@ -2,9 +2,13 @@
 
 ### Contributors:
 - [LeeGod](https://github.com/LeeGodSRC)
- - [Whizyyy](https://github.com/Whizyyy)
+- [Whizyyy](https://github.com/Whizyyy)
 
 All notable changes to this project will be documented in this file.
+
+## [2022.11.1 LTS BUILD 2] - 2022-November-7
+- Fixed MobStacker ignoring entity equipments - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#161](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/161)*
 
 ## [2022.11.1 LTS BUILD 1] - 2022-November-3
 **``(New Release)``**
