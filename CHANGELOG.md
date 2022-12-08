@@ -6,6 +6,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2022.11.1 LTS BUILD 3] - 2022-December-8
+- Should not reset damage ticks on entity death with mob stacker stacked - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#164](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/164)*
+- Fixed not checking for overriden ChunkRegionLoader - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#160](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/160)*
+
 ## [2022.11.1 LTS BUILD 2] - 2022-November-7
 - Fixed MobStacker ignoring entity equipments - [LeeGod](https://github.com/LeeGodSRC)
   - *Solved [#161](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/161)*
