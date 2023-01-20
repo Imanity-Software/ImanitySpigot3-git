@@ -6,6 +6,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.1.1 BUILD 1] - 2023-Januray-1
+
+### Chores
+- Improved block position memory allocation - [Whizyyy](https://github.com/Whizyyy)
+- Improved player chunk map memory allocation - [Whizyyy](https://github.com/Whizyyy)
+
+### Fixes
+- Fixed EquipmentSetEvent not called when item is the same - [LeeGod](https://github.com/LeeGodSRC)
+  - *Special Thanks to [Xefreh](https://github.com/Xefreh) for helping on the issue!*
+
 ## [2022.11.1 LTS BUILD 3] - 2022-December-8
 - Should not reset damage ticks on entity death with mob stacker stacked - [LeeGod](https://github.com/LeeGodSRC)
   - *Solved [#164](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/164)*
