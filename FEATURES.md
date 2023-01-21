@@ -40,7 +40,7 @@ All features from ImanitySpigot3
 - Ability to disable tnt/cannon entity from displaying to player, fps improvement
 - Ability to disable weather change
 - Ability to disable leaves decay
-- Ability to disable foot step sound
+- Ability to disable footstep sound
 - Ability to disable enable/disable water source
 - Ability to disable enable/disable lava source
 - Ability to change durability multiplier
@@ -64,6 +64,7 @@ All features from ImanitySpigot3
 - Added Chunk.getBlock(Location location)
 - Added Player.imanity().setCanPickupExperienceOrbs(boolean bol)
 - Added PlayerPickupArrowEvent
+- Added EquipmentSetEvent
 - Added ability to disable drops in BlockBreakEvent
 - Added PotionEffectEvents, listen to potion effect add, extend, expire, or removal for no effort
 - Added PrepareAnvilEvent
@@ -73,9 +74,13 @@ All features from ImanitySpigot3
 - Added Mob Goal APIs
 - Added Void world type
 - Added Fake Environment command and API
+- Added MobStacker system, configurable per world
+- Added possibility to customize trajectory randomness for each projectile
+- Added possibility to let redstone not be destroyed by water, unlock many cannons possibilities
+- Added possibility to let client send more characters in chat than previously limited by server
 
 ## Premium Additional Features
-- Lag spike logger / detector, altert lag spike, tick time, timestamp, and timing entries when lag spike happens
+- Lag spike logger / detector, alert lag spike, tick time, timestamp, and timing entries when lag spike happens
 - Chunk Analyzer, profile chunks consuming server performance with detailed information
 - Ability to customize server mod name
 - Ability to customize /version messages
@@ -107,7 +112,7 @@ All features from ImanitySpigot3
 - Caching explosion block data, reduce block lookup
 - Optimized BlockPosition cardinal offsets
 - Optimized Portal travel agent lookup algorithm
-- Libraries are externalized, each library will be download indviually on first launch
+- Libraries are externalized, each library will be downloaded individually on first launch
 - Parallel entity tracking, send entity data to players using multiple threads
 - Asynchronous player data loading and saving, prevent lag for player data IO operation
 - Caching entity type count in world to reduce additional lookup
@@ -150,6 +155,7 @@ All features from ImanitySpigot3
 - Cache creature type in entity list
 - Avoid timing usage in xray while async
 - sendPacketNearby lookup player list from world
+- Reduced amount of BlockPosition instance creation
 
 ## Source Code Improvements
 - Repackaged NMS Classes, no more messy nms classes in a single package
@@ -169,3 +175,10 @@ All features from ImanitySpigot3
 - Fixed broken plugin nms compatibility in ServerConnection
 - Cache authenticator threads
 - Fixed RCE exploit
+- Fixed server crash exploit from invalid movement packet
+- Fixed client glitch that allow eating while sprinting (customizable)
+
+## Imanity Additions
+ImanitySpigot also have "additions" these provide huge optimizations/features in some case.
+- [AsyncFastLight](https://shop.imanity.dev/category/imanityspigot3-additions)
+- [AsyncHeartbeat](https://shop.imanity.dev/category/imanityspigot3-additions)
