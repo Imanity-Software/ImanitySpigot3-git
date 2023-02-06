@@ -6,6 +6,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.1.1 BUILD 2] - 2023-February-6
+- Emerald ore generation will now be overriden by Custom block rule set if enabled - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#176](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/176)*
+- Attempting to fix BKCommonLib reflection compatibility on nms World class - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#174](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/174)*
+- Ignore Citizens patching if the Citizens is on new versions - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#172](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/172)*
+
 ## [2023.1.1 BUILD 1] - 2023-Januray-1
 
 ### Chores
