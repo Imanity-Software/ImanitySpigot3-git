@@ -6,6 +6,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.2.1 LTS BUILD 1] - 2023-February-17
+**``(New Release)``**
+
+## Added
+- Added **Enterprise Plan** - [LeeGod](https://github.com/LeeGodSRC)
+  - *Checkout Enterprise now on [HERE](https://shop.imanity.dev/category/enterprise)*
+- Added **AsyncExplosion** addition - [LeeGod](https://github.com/LeeGodSRC) & [Whizyyy](https://github.com/Whizyyy)
+  - *A mutli-threaded explosion system with enhanced algorithm to optimize Explosion by 3-8x.*
+- Added **GhostPatcher** addition - [LeeGod](https://github.com/LeeGodSRC)
+  - *A patcher system that will remove ghost blocks when fast instant mining.*
+- Added option `explosion.shouldCheckBlockDensity` into imanity world config - [LeeGod](https://github.com/LeeGodSRC)
+- Added option `explosion.constantExplosionRange` into imanity world config - [LeeGod](https://github.com/LeeGodSRC)
+
+## Chores
+- Improved explosion algorithm - [Whizyyy](https://github.com/Whizyyy)
+- Improved comments in confiugrations - [Whizyyy](https://github.com/Whizyyy)
+
 ## [2023.1.1 BUILD 2] - 2023-February-6
 - Emerald ore generation will now be overriden by Custom block rule set if enabled - [LeeGod](https://github.com/LeeGodSRC)
   - *Solved [#176](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/176)*
