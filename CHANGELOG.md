@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file.
 
 ## Added
 - Added **Enterprise Plan** - [LeeGod](https://github.com/LeeGodSRC)
-  - *Checkout Enterprise now on [HERE](https://shop.imanity.dev/category/enterprise)*
+  - *Checkout Enterprise now on [HERE](https://go.imanity.dev/enterprise)*
 - Added **AsyncExplosion** addition - [LeeGod](https://github.com/LeeGodSRC) & [Whizyyy](https://github.com/Whizyyy)
   - *A mutli-threaded explosion system with enhanced algorithm to optimize Explosion by 3-8x.*
 - Added **GhostPatcher** addition - [LeeGod](https://github.com/LeeGodSRC)
