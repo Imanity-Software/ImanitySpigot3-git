@@ -6,6 +6,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.2.1 BUILD 1] - 2023-February-17
+**``(New Release)``**
+
+Added:
+- Added enterprise plan support
+- Added startup flag `-Dimanity.version=(LATEST/LTS/*spigot version*)`
+  - *Resolved [#124](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/124)*
+
 ## [2022.7.1 BUILD 1] - 2022-July-1
 - Upgraded JavaAssist to 3.29.0-GA - [LeeGod](https://github.com/LeeGodSRC)
 - Upgraded JNA to 5.11.0 - [LeeGod](https://github.com/LeeGodSRC)
