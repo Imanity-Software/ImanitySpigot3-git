@@ -6,6 +6,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.2.1 LTS BUILD 2] - 2023-February-18
+- Fixed small error on explosion calculation - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2023.2.1 LTS BUILD 1] - 2023-February-17
 **``(New Release)``**
 
