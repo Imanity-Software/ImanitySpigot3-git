@@ -6,6 +6,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.2.1 BUILD 2] - 2023-February-18
+- Fixed Incompatible error with modern JRE/JDK. - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2023.2.1 BUILD 1] - 2023-February-17
 **``(New Release)``**
 
