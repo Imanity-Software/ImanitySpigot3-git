@@ -6,6 +6,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.2.1 LTS BUILD 5] - 2023-March-2
+- Fixed restart script not working - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2023.2.1 LTS BUILD 4] - 2023-February-28
 - Fixed remove lakes region using wrong condition checking - [LeeGod](https://github.com/LeeGodSRC)
 
