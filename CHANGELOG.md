@@ -6,6 +6,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.2.1 LTS BUILD 6] - 2023-March-6
+- Added world region modification `sealevel` - [LeeGod](https://github.com/LeeGodSRC)
+  - *This option allows you to modify the sea/water level of a special region*
+  - *Argument: `sealevel: <number>`*
+
 ## [2023.2.1 LTS BUILD 5] - 2023-March-2
 - Fixed restart script not working - [LeeGod](https://github.com/LeeGodSRC)
 
