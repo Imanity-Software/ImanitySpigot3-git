@@ -6,6 +6,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.3.1 BUILD 1] - 2023-March-17
+- Added **Redstone Limiter** addition - [LeeGod](https://github.com/LeeGodSRC)
+  - *An addition that allows you to control the maximum amount of redstone, hopper, dispenser, dropper, piston push per tick by configuration. currently available for Enterprise only.*
+- Added [mob stacker related APIs](https://docs.imanity.dev/imanityspigot/api/extended-api-methods#entity) to Entity class - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#186](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/186)*
+
 ## [2023.2.1 LTS BUILD 6] - 2023-March-6
 - Added world region modification `sealevel` - [LeeGod](https://github.com/LeeGodSRC)
   - *This option allows you to modify the sea/water level of a special region*
