@@ -6,6 +6,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.3.1 BUILD 2] - 2023-March-29
+- Added `compatibilityMode` option - [LeeGod](https://github.com/LeeGodSRC)
+  - *It's an option that attempts to fix edge cases for different scenarios or plugins. More changes will be added to this option, currently focsuing on chunk related stuff.*
+- Added TileEntityChest thread safe fallback - [LeeGod](https://github.com/LeeGodSRC)
+  - *An attempt of fixing [#137](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/137)*
+
 ## [2023.3.1 BUILD 1] - 2023-March-17
 - Added **Redstone Limiter** addition - [LeeGod](https://github.com/LeeGodSRC)
   - *An addition that allows you to control the maximum amount of redstone, hopper, dispenser, dropper, piston push per tick by configuration. currently available for Enterprise only.*
