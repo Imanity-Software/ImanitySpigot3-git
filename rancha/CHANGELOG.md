@@ -6,6 +6,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.2.1 BUILD 4] - 2023-March-30
+-  Bumped FastUtil to 8.5.11 - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2023.2.1 BUILD 3] - 2023-February-23
 - Added download properties system. - [LeeGod](https://github.com/LeeGodSRC)
 
