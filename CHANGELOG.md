@@ -6,6 +6,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.3.1 BUILD 3] - 2023-April-12
+- Disallow natural creature spawning system from loading chunks - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed incorrect casting in part of chunk generation - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#195](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/195)*
+
 ## [2023.3.1 BUILD 2] - 2023-March-29
 - Added `compatibilityMode` option - [LeeGod](https://github.com/LeeGodSRC)
   - *It's an option that attempts to fix edge cases for different scenarios or plugins. More changes will be added to this option, currently focsuing on chunk related stuff.*
