@@ -6,6 +6,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.4.1 BUILD 1] - 2023-April-23
+- Added throughCobweb option to every egg, snowball, and pearl - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#193](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/193)*
+- Added velocity exploit patch - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2023.3.1 BUILD 3] - 2023-April-12
 - Disallow natural creature spawning system from loading chunks - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed incorrect casting in part of chunk generation - [LeeGod](https://github.com/LeeGodSRC)
