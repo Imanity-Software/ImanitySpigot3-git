@@ -6,6 +6,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.4.1 BUILD 2] - 2023-April-25
+- Fixed lighting issue with loading chunks - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#133](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/133)*
+
 ## [2023.4.1 BUILD 1] - 2023-April-23
 - Added throughCobweb option to every egg, snowball, and pearl - [LeeGod](https://github.com/LeeGodSRC)
   - *Solved [#193](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/193)*
