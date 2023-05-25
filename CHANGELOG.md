@@ -6,6 +6,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.5.1 LTS BUILD 1] - 2023-May-24
+![20230501](https://github.com/Imanity-Software/ImanitySpigot3-git/assets/36093806/498f2a96-36ca-4666-b693-fdfb4c45c673)
+
+### Added
+- Added Raytrace AntiXray Addition - [LeeGod](https://github.com/LeeGodSRC)
+  - *An advanced anti xray system that only display ores to people who can see it from raytracing.*
+  - *Built on top of Async AntiXray*
+  - *Exclusive to ImanitySpigot3 Enterprise.*
+  - Sub feature: Fake Ores
+    - *Generating random ores surrounding the world.*
+    - *To mislead xrayers from mining the real ores.*
+- Added Async AntiXray - [LeeGod](https://github.com/LeeGodSRC)
+  - *Alternative to current spigot anti xray, obfuscation is running completely in different thread pool.*
+  - *Also fixed the issue where ores are tend to not be obfuscated.*
+- Added `/imanity disableAntiXray` - [LeeGod](https://github.com/LeeGodSRC)
+  - *Only works when Async AntiXray was enabled*
+- Added `/imanity bypassAntiXray` - [LeeGod](https://github.com/LeeGodSRC)
+  - *Only works when Async AntiXray was enabled*
+- Added `improvedHitDetection` option - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#199](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/199)*
+- Added `ghostBucketFix` option - [LeeGod](https://github.com/LeeGodSRC)
+  - *Fixed ghost water/lava bucket placement by improving right click detection.*
+- Added `bucketUpdateRange` option - [LeeGod](https://github.com/LeeGodSRC)
+
+### Fixed
+- Fixed memory leak for AsyncFastLight - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#140](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/140)*
+
 ## [2023.4.1 BUILD 2] - 2023-April-25
 - Fixed lighting issue with loading chunks - [LeeGod](https://github.com/LeeGodSRC)
   - *Solved [#133](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/133)*
