@@ -6,6 +6,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.5.1 LTS BUILD 2] - 2023-May-31
+
+### Changed
+- Improved network manager initialization and packet sending - [LeeGod](https://github.com/LeeGodSRC)
+  - *Removed network manager packet queue synchronization*
+  - *Ensure queued packet only being sent once*
+  - *Add network manager to pending list and add them all at once on main thread tick*
+  - *Don't try to flush packet out of main thread unless it's in pending state*
+  - *Solved [#198](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/198)*
+  - *Solved [#204](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/204)*
+  - *Solved [#207](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/207)*
+
 ## [2023.5.1 LTS BUILD 1] - 2023-May-24
 ![20230501](https://github.com/Imanity-Software/ImanitySpigot3-git/assets/36093806/498f2a96-36ca-4666-b693-fdfb4c45c673)
 
