@@ -6,6 +6,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.5.1 LTS BUILD 3] - 2023-June-22
+
+### Changed
+- Don't update blocks that's too faraway for antixray (reduce loads) - [LeeGod](https://github.com/LeeGodSRC)
+- Stricter solid block checks for antixray - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2023.5.1 LTS BUILD 2] - 2023-May-31
 
 ### Changed
