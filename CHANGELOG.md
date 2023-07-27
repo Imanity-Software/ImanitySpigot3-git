@@ -6,6 +6,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.7.1 BUILD 1] - 2023-July-27
+
+### Added
+- Added `arrowIgnoreDamageTicks` option - [LeeGod](https://github.com/LeeGodSRC)
+
+### Changed
+- Added fillWorld description (inform /imanity fillWorld radius is in blocks) - [LeeGod](https://github.com/LeeGodSRC)
+
+### Fixed
+- Only apply yaw and pitch since only rotation can desync for `ghostBucketFix` option - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed toggleantixray command on console - [LeeGod](https://github.com/LeeGodSRC)
+
+###
+
 ## [2023.5.1 LTS BUILD 3] - 2023-June-22
 
 ### Changed
