@@ -6,6 +6,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2023.10.1 LTS BUILD 1] - 2023-October-26
+
+### Added
+- Added TNTPrimeEvent - [LeeGod](https://github.com/LeeGodSRC)
+- Addd non-mutative getCrossProduct method to bukkit Vector - [LeeGod](https://github.com/LeeGodSRC)
+
+### Changed
+- Make sure lighting update not sharing the same cache - [LeeGod](https://github.com/LeeGodSRC)
+- Use weak reference for light cache - [LeeGod](https://github.com/LeeGodSRC)
+- Improved ignore damage ticks functionality - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2023.7.1 BUILD 1] - 2023-July-27
 
 ### Added
@@ -17,8 +28,6 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - Only apply yaw and pitch since only rotation can desync for `ghostBucketFix` option - [LeeGod](https://github.com/LeeGodSRC)
 - Fixed toggleantixray command on console - [LeeGod](https://github.com/LeeGodSRC)
-
-###
 
 ## [2023.5.1 LTS BUILD 3] - 2023-June-22
 
