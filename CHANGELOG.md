@@ -10,9 +10,12 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - Added TNTPrimeEvent - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#210](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/210)*
 - Addd non-mutative getCrossProduct method to bukkit Vector - [LeeGod](https://github.com/LeeGodSRC)
+  - *Solved [#227](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/227)*
 
 ### Changed
+- Reload world configurations when `/imanity reload` - [LeeGod](https://github.com/LeeGodSRC)
 - Make sure lighting update not sharing the same cache - [LeeGod](https://github.com/LeeGodSRC)
 - Use weak reference for light cache - [LeeGod](https://github.com/LeeGodSRC)
 - Improved ignore damage ticks functionality - [LeeGod](https://github.com/LeeGodSRC)
