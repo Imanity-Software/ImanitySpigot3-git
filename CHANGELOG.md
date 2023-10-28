@@ -6,7 +6,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2023.10.1 LTS BUILD 1] - 2023-October-28
+## [2023.10.1 LTS BUILD 2] - 2023-October-28
 
 ### Fixed
 - Fixed NPE in lighting - [LeeGod](https://github.com/LeeGodSRC)
