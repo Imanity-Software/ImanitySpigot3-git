@@ -6,6 +6,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.1.1 BUILD 1] - 2024-Januray-1
+**``(New Release)``**
+
+### Added:
+- Added `disableFallingBlocksPhysics` world option. - [LeeGod](https://github.com/LeeGodSRC)
+  - Thanks to @Xefreh for the patch.
+ 
+### Fixed:
+- Fixed NullPointerException from shutting down ghost patcher. - [LeeGod](https://github.com/LeeGodSRC)
+
+### Changed
+- Updated outdated links and time. - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2023.10.1 LTS BUILD 2] - 2023-October-28
 
 ### Fixed
