@@ -43,6 +43,7 @@ All features from ImanitySpigot3
 - Ability to disable footstep sound
 - Ability to disable enable/disable water source
 - Ability to disable enable/disable lava source
+- Ability to disable falling block physics by option
 - Ability to change durability multiplier
 - Ability to hide IP address in console
 - Ability to made player instant respawn on death
