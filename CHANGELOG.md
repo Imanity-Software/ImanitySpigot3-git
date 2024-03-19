@@ -6,6 +6,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.3.1 LTS BUILD 1] - 2024-March-19
+**``(New Release)``**
+
+### Changed
+- Prevent async teleportation from happening using AsyncCatcher. - [LeeGod](https://github.com/LeeGodSRC)
+  - *Use sync callback redirect when compatibilityMode is on*
+  - *Solved [#218](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/218)*
+- Added async catcher status to crash log. - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2024.1.1 BUILD 1] - 2024-Januray-1
 **``(New Release)``**
 
