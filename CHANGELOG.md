@@ -6,6 +6,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.3.1 LTS BUILD 2] - 2024-March-24
+- Added imanity configuration support into spark report. - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2024.3.1 LTS BUILD 1] - 2024-March-19
 **``(New Release)``**
 
