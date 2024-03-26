@@ -6,6 +6,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.3.1 LTS BUILD 3] - 2024-March-26
+- Added option `signStripFormatting` to world config. - [LeeGod](https://github.com/LeeGodSRC)
+- Added option `maxSignLineLength` to world config. - [LeeGod](https://github.com/LeeGodSRC)
+- Fixed NPE in pandawire redstone - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2024.3.1 LTS BUILD 2] - 2024-March-24
 - Added imanity configuration support into spark report. - [LeeGod](https://github.com/LeeGodSRC)
 
