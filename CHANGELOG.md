@@ -6,6 +6,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.3.1 LTS BUILD 4] - 2024-April-2
+- Fixed `tick-next-tick-list-cap` not being considered when ticking next tick list. - [LeeGod](https://github.com/LeeGodSRC)
+  - Fixed [#232](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/232)
+
 ## [2024.3.1 LTS BUILD 3] - 2024-March-26
 - Added option `signStripFormatting` to world config. - [LeeGod](https://github.com/LeeGodSRC)
 - Added option `maxSignLineLength` to world config. - [LeeGod](https://github.com/LeeGodSRC)
