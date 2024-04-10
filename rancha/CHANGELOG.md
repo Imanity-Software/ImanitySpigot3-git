@@ -6,6 +6,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.4.1 BUILD 1] - 2024-April-11
+- Paperclip - [LeeGod](https://github.com/LeeGodSRC)
+
 ## [2023.2.1 BUILD 4] - 2023-March-30
 -  Bumped FastUtil to 8.5.11 - [LeeGod](https://github.com/LeeGodSRC)
 
