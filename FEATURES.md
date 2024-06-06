@@ -101,6 +101,8 @@ All features from ImanitySpigot3
 - Asynchronous Chunk loading when player join
 - Improved bukkit async scheduler
 - Improved BlockState array map
+- Mouse Delay Fix
+- Interact Event Fix
 - Do not allow logins while the server is shutting down
 - Optimized and different variants getCubes() for better performance
 - Optimized random block ticking operation
