@@ -6,6 +6,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.6.1 BUILD 3] - 2024-June-6
+- Added option `mouseDelayFix`
+- Added option `interactEventFix`
+
 ## [2024.6.1 BUILD 2] - 2024-June-3
 - Fixed SlimeWorldManager compatbility
 
