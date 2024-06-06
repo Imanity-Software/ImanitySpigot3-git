@@ -3,7 +3,7 @@ All features from ImanitySpigot3
 
 ## Additional Features
 - Advanced Knockback System
-- Java 8 to Java 17 Support
+- Java 8 to Java 21 Support
 - https://timin.gs support, modern timing analyst interface
 - World filling processor, generate chunk within ranges with just 1 command
 - Vanish Patch
