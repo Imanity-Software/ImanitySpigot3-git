@@ -6,6 +6,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.6.1 BUILD 4] - 2024-June-10
+- fix: Fixed mouseDelayFix, only rotation will desync, and fix a slight delay that dupes item
+- fix: Fixed some race condition in ChunkSaveIOThread
+  - *Fixed [#235](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/235)*
+
 ## [2024.6.1 BUILD 3] - 2024-June-6
 - Added option `mouseDelayFix`
 - Added option `interactEventFix`
