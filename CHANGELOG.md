@@ -6,6 +6,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.7.1 LTS BUILD 1] - 2024-July-19
+**``(New Release)``**
+
+### Chore
+- chore: Added option shouldApplyFishVelocityToPlayer
+- chore: Avoid double lookup in ActivationRange
+- chore: Improved random tick chunk iteration
+- chore: Improved mouseDelayFix overall
+
+### Fixed
+- fix: Fixed incorrect casting
+- fix: Fixed ghost bucket
+- fix: Applied RegionFileCache fix by Xefreh
+
 ## [2024.6.1 BUILD 5] - 2024-June-11
 - fix: Fixed asyncFastLight calling main thread update light randomly
 
