@@ -6,6 +6,32 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.9.1 LTS BUILD 1] - 2024-September-6
+**``(New Release)``**
+
+## Features
+- feat: Added smoothPotionSplashing option
+- feat: implemented an option to disable processing packets while sleeping thanks to Cyramek. - [Xefreh](https://github.com/Xefreh)
+  - *Fixed [#229](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/229)*
+- feat: Added world option shouldSaveTrackerBandwidth
+- feat: Added world option disableTracking
+- feat: Added indirectSelfBoosting to knockback hitBase behaviour
+  - *Fixed [#242](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/242)*
+
+## Changes
+- chore: Changed the way set motion works
+  - *Fixes an issue with ArenaPvP bot knockback issue*
+- chore: Constant time on main task queue size()
+- chore: Reduce memory overhead with some BlockPosition
+
+## Fixed
+- fix: Reduce explosion chunk lookup
+- fix: Mouse delay fix shouldn't apply to non-throwable potion
+- fix: Removed unused creature counter in SpawnerCreature
+
+## Removed
+- removed: Removed ServerSideHitDetection
+
 ## [2024.7.1 LTS BUILD 1] - 2024-July-19
 **``(New Release)``**
 
