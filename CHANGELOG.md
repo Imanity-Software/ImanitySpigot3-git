@@ -6,6 +6,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.9.1 LTS BUILD 1] - 2024-September-7
+- Reverted jar-relocator update for error on some users
+
 ## [2024.9.1 LTS BUILD 1] - 2024-September-6
 **``(New Release)``**
 
