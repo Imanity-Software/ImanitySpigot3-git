@@ -2,11 +2,16 @@
 
 ### Contributors:
 - [LeeGod](https://github.com/LeeGodSRC)
-- [Whizyyy](https://github.com/Whizyyy)
 
 All notable changes to this project will be documented in this file.
 
-## [2024.9.1 LTS BUILD 1] - 2024-September-7
+## [2024.9.1 LTS BUILD 3] - 2024-September-8
+- fix: Fixed unable to launch the spigot in certain platforms
+  - *Fixed [#248](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/248)*
+- fix: Replaced deprecated Guava method
+- fix: Fixed dont read NBT in window click cause window click always mismatch
+
+## [2024.9.1 LTS BUILD 2] - 2024-September-7
 - Reverted jar-relocator update for error on some users
 
 ## [2024.9.1 LTS BUILD 1] - 2024-September-6
