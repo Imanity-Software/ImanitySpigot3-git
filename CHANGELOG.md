@@ -5,6 +5,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.9.1 LTS BUILD 4] - 2024-September-10
+- fix: Fixed an startup error in Java 8 environment
+
 ## [2024.9.1 LTS BUILD 3] - 2024-September-8
 - fix: Fixed unable to launch the spigot in certain platforms
   - *Fixed [#248](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/248)*
