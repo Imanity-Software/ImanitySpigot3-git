@@ -5,6 +5,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.10.1 BUILD 1] - 2024-October-16
+**``(New Release)``**
+
+- feat: Added EntityFactory to reduce reflection load on natural mob spawning
+- feat: Added canOneShot option to mobStacker
+- feat: Added displayName option to mobStacker
+- chore: Cleanup ChunkCache after used
+- chore: Ensure not null before remove from PlayerMap list
+- chore: Reduce block check in Explosion
+- fix: entity was not killed if stack <= 1
+- fix: enderman client animation teleport is no longer sent
+- fix: Fixed mob stacking doesn't work when an event is registered
+- fix: Fixed AsyncFastLight making the end not spawning any mobs
+- fix: Redesigned how async-explosion addition works
+
 ## [2024.9.1 LTS BUILD 4] - 2024-September-10
 - fix: Fixed an startup error in Java 8 environment
 
