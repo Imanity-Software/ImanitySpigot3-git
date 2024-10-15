@@ -9,13 +9,13 @@ All notable changes to this project will be documented in this file.
 **``(New Release)``**
 
 - feat: Added EntityFactory to reduce reflection load on natural mob spawning
-- feat: Added canOneShot option to mobStacker
-- feat: Added displayName option to mobStacker
+- feat: Added canOneShot option to mobStacker - [Xefreh](https://github.com/Xefreh)
+- feat: Added displayName option to mobStacker - [Xefreh](https://github.com/Xefreh)
 - chore: Cleanup ChunkCache after used
 - chore: Ensure not null before remove from PlayerMap list
 - chore: Reduce block check in Explosion
-- fix: entity was not killed if stack <= 1
-- fix: enderman client animation teleport is no longer sent
+- fix: entity was not killed if stack <= 1 - [Xefreh](https://github.com/Xefreh)
+- fix: enderman client animation teleport is no longer sent - [Xefreh](https://github.com/Xefreh)
 - fix: Fixed mob stacking doesn't work when an event is registered
 - fix: Fixed AsyncFastLight making the end not spawning any mobs
 - fix: Redesigned how async-explosion addition works
