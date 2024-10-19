@@ -5,6 +5,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.10.1 BUILD 1] - 2024-October-20
+- fix: Fixed non-async-explosion doesn't break blocks
+
 ## [2024.10.1 BUILD 1] - 2024-October-16
 **``(New Release)``**
 
