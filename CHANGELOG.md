@@ -5,6 +5,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.10.1 BUILD 4] - 2024-November-11
+- fix: Fixed extreme amount of mob spawning on weird lighting situation
+
 ## [2024.10.1 BUILD 3] - 2024-November-7
 - fix: Force update on enchanting items
 - fix: Exclude `com.sun:tools` dependency
