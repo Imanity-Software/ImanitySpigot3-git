@@ -6,6 +6,7 @@
 All notable changes to this project will be documented in this file.
 
 ## [2024.10.1 BUILD 4] - 2024-November-11
+- chore: Changed the way PlayerChunkMap update distances
 - fix: Fixed extreme amount of mob spawning on weird lighting situation
 
 ## [2024.10.1 BUILD 3] - 2024-November-7
