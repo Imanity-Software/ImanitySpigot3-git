@@ -5,6 +5,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.11.1 LTS BUILD 1] - 2024-November-14
+- feat: Added disableNaturalMobSpawning world option
+- feat: Player Chunk Load/Unload Events
+- chore: Massively improved network flushing control
+- chore: Added packet queue for entity tracking
+- fix: Fixed ProtocolLib's hacky way to listen packets
+  - *Fixed [#208](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/208)*
+  - *Fixed [#177](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/177)*
+
 ## [2024.10.1 BUILD 4] - 2024-November-11
 - chore: Changed the way PlayerChunkMap update distances
 - fix: Fixed extreme amount of mob spawning on weird lighting situation
