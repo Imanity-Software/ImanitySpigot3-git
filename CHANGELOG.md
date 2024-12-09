@@ -5,6 +5,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.11.1 LTS BUILD 2] - 2024-December-9
+- chore: Fixed get time overhead in tick chunks
+- chore: Reduce get time overhead in World
+- fix: Make sure user is still connected each flush
+  - *Fixed [#261](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/261)*
+- fix: Check null before calling PlayerChunkUnloadEvent event
+- fix: queuePacket should ignore null packets
+
 ## [2024.11.1 LTS BUILD 1] - 2024-November-14
 - feat: Added disableNaturalMobSpawning world option
 - feat: Player Chunk Load/Unload Events
