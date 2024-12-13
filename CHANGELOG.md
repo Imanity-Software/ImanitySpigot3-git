@@ -5,6 +5,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.11.1 LTS BUILD 2] - 2024-December-14
+- fix: Proper fix for Citizens
+
 ## [2024.11.1 LTS BUILD 2] - 2024-December-9
 - chore: Fixed get time overhead in tick chunks
 - chore: Reduce get time overhead in World
