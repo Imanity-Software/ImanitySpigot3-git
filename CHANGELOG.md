@@ -5,7 +5,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2024.11.1 LTS BUILD 2] - 2024-December-14
+## [2024.11.1 LTS BUILD 3] - 2024-December-14
 - fix: Proper fix for Citizens
 
 ## [2024.11.1 LTS BUILD 2] - 2024-December-9
