@@ -5,6 +5,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2024.11.1 LTS BUILD 4] - 2024-December-21
+- feat: Added PlayerTrackEntityEvent and PlayerUntrackEntityEvent
+- fix: Fixed the way packet being queued
+
 ## [2024.11.1 LTS BUILD 3] - 2024-December-14
 - fix: Proper fix for Citizens
 
