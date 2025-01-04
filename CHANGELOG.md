@@ -5,7 +5,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2025.1.1 LTS BUILD 1] - 2024-December-21
+## [2025.1.1 LTS BUILD 1] - 2025-Januray-4
 - chore: Improved eat and drop fixes
   - *Fixed [#264](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/264)*
 - fix: Fixed ping spike on loading chunks
