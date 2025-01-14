@@ -5,6 +5,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2025.1.1 LTS BUILD 2] - 2025-Januray-14
+- fix: Knockback fixes for MobStacker by Xefreh
+
 ## [2025.1.1 LTS BUILD 1] - 2025-Januray-4
 - chore: Improved eat and drop fixes
   - *Fixed [#264](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/264)*
