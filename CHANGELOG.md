@@ -5,6 +5,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2025.3.1 BUILD 2] - 2025-March-20
+- feat: Added getHighestBlock APIs into Bukkit Chunk
+- feat: Added ServerTickStartEvent and ServerTickEndEvent
+- feat: Added Entity.isDisableKnockback and Entity.setDisableKnockback
+- feat: Added Entity.isDisableWaterMovement and Entity.setDisableWaterMovement
+- fix: Fixed extra knockback still being taken - [Xefreh](https://github.com/Xefreh)
+
 ## [2025.3.1 BUILD 1] - 2025-March-9
 - feat: Added Entity.isCollidable and Entity.setCollidable
 - feat: Integrated [AntiXraySDK](https://github.com/Imanity-Software/raytrace-antixray-spigot-sdk)
