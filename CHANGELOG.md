@@ -5,6 +5,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2025.6.1 LTS BUILD 1] - 2025-June-2
+- fix: Fixed Coordinate Exploit
+
 ## [2025.3.1 BUILD 2] - 2025-March-20
 - feat: Added getHighestBlock APIs into Bukkit Chunk
 - feat: Added ServerTickStartEvent and ServerTickEndEvent
