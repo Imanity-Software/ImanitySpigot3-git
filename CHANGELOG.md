@@ -5,6 +5,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2025.7.1 LTS BUILD 1] - 2025-July-2
+- fix: Fixed asyncLightUpdates algorithm lag spikes during lighting chunks
+  - *Fixed [#272](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/272)*
+
 ## [2025.6.1 LTS BUILD 1] - 2025-June-2
 - fix: Fixed Coordinate Exploit
 
