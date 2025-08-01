@@ -5,6 +5,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2025.8.1 LTS BUILD 1] - 2025-August-1
+- perf: optimize chunk queue with cached size
+- fix: cache async lighting config and improve documentation
+- fix: prevent tick entity fix during async chunk saving
+- docs: Improve chunkTickRate configuration documentation clarity
+
 ## [2025.7.1 LTS BUILD 1] - 2025-July-2
 - fix: Fixed asyncLightUpdates algorithm lag spikes during lighting chunks
   - *Fixed [#272](https://github.com/Imanity-Software/ImanitySpigot3-git/issues/272)*
