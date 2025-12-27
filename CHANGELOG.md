@@ -5,6 +5,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2025.12.1 LTS BUILD 1] - 2025-December-28
+- feat: Add teleportToEntityYLevel option to land at opponent's Y level
+- feat: Add hitboxExpansion config for pearl collision detection (default 0.3)
+- feat: Add playerBoundingBoxExpansion config to improve side pearling
+- feat: Add cancelKnockbackOnTeleport to prevent KB after pearl teleport
+- fix: Fixed InventoryCrafting crash
+- fix: Fixed how player distance were tracked for randomBlockTicking
+- fix: synchronize RegionFile close method
+
 ## [2025.8.1 LTS BUILD 1] - 2025-August-1
 - perf: optimize chunk queue with cached size
 - fix: cache async lighting config and improve documentation
