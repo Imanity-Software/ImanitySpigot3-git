@@ -5,6 +5,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2026.2.1 LTS BUILD 1] - 2025-February-24
+- feat: Java 25 Support
+
 ## [2025.12.1 LTS BUILD 1] - 2025-December-28
 - feat: Add teleportToEntityYLevel option to land at opponent's Y level
 - feat: Add hitboxExpansion config for pearl collision detection (default 0.3)
