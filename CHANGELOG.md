@@ -5,7 +5,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2026.9.1 LTS BUILD 1] - 2025-Aug-29
+## [2026.9.1 LTS BUILD 1] - 2026-Aug-29
 - feat: add configurable PVP tick loop for lower combat latency
 - feat: make removeLakes drain heightmap water and stamp region biome
 - feat: add configurable full intensity for potion self-splash
@@ -16,7 +16,7 @@ All notable changes to this project will be documented in this file.
 - fix: limit potion self-splash full intensity to close range
 - fix: update anti-xray nearby blocks when physics is skipped
 
-## [2026.2.1 LTS BUILD 1] - 2025-February-24
+## [2026.2.1 LTS BUILD 1] - 2026-February-24
 - feat: Java 25 Support
 
 ## [2025.12.1 LTS BUILD 1] - 2025-December-28
