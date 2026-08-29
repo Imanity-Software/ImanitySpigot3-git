@@ -5,6 +5,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2026.9.1 LTS BUILD 1] - 2025-Aug-29
+- feat: add configurable PVP tick loop for lower combat latency
+- feat: make removeLakes drain heightmap water and stamp region biome
+- feat: add configurable full intensity for potion self-splash
+- feat: add configurable ping offset and max ping for improved hit detection
+- feat: expose /tps diagnostics as PlaceholderAPI placeholders
+- feat: adopt Adventure API for native Component-based text handling
+- fix: harden ProtocolLib compat for unparsable versions and Java17 lambdas
+- fix: limit potion self-splash full intensity to close range
+- fix: update anti-xray nearby blocks when physics is skipped
+
 ## [2026.2.1 LTS BUILD 1] - 2025-February-24
 - feat: Java 25 Support
 
