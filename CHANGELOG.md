@@ -5,6 +5,9 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2026.9.1 LTS BUILD 2] - 2026-Aug-29
+- fix: Fixed adventure patch
+
 ## [2026.9.1 LTS BUILD 1] - 2026-Aug-29
 - feat: add configurable PVP tick loop for lower combat latency
 - feat: make removeLakes drain heightmap water and stamp region biome
